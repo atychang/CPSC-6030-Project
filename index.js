@@ -6,7 +6,7 @@ const svg = d3.select("#map").attr("width", width).attr("height", height);
 const projection = d3.geoMercator().center([0, 5]).scale(150).rotate([-180, 0]);
 const path = d3.geoPath(projection);
 
-Promise.all([d3.json("data/world.json")]).then(([topo]) => {
+Promise.all([d3.json("datasets/world.json")]).then(([topo]) => {
   svg
     .append("g")
     .selectAll("path")
