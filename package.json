@@ -1,0 +1,22 @@
+{
+  "name": "CPSC-6030-Project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "d3": "^7.6.1",
+    "topojson": "^3.0.2"
+  }
+}
