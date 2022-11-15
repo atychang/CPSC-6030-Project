@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPSC 6030 Data Visualization Project Team 1</title>
+    <script type="module" crossorigin src="/assets/index.d7ffeace.js"></script>
+    <link rel="stylesheet" href="/assets/index.7534bbce.css">
+  </head>
+  <body class="h-100">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="infoContainer" class="col-2 card">
+          <div id="countryInfo" class="card-body">
+            <h5 id="countryName" class="card-title">No country selected</h5>
+          </div>
+        </div>
+
+        <div id="mapContainer" class="col-6 d-flex justify-content-center">
+          <div id="timeSliderContainer">
+            <ul class="sliderLabels">
+              <li>2015</li>
+              <li>2016</li>
+              <li>2017</li>
+              <li>2018</li>
+              <li>2019</li>
+              <li>2020</li>
+              <li>2021</li>
+            </ul>
+            <input
+              type="range"
+              class="form-range justify-content-centerd"
+              min="2015"
+              max="2021"
+              value="2015"
+              step="1"
+              id="yearRange"
+            />
+          </div>
+        </div>
+
+        <div id="chartContainer" class="col-4"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
