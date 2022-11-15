@@ -77,14 +77,44 @@ createLegend();
 
 const earth = svg.append("g");
 
-// hover callback
+// double click callback
 var selectCountry = function (event, d) {
-  d3.select("#countryName").text(d.properties.name);
-  d3.select(this).attr("stroke-width: 1");
+  const name = d.properties.name;
+  d3.select("#countryName").text(name);
+  d3.select("#region").text(`Region: ${currentData[name]["Region"]}`);
+  d3.select("#hr").text(
+    `Happiness Rank: ${currentData[name]["Happiness Rank"]}`
+  );
+  d3.select("#hs").text(
+    `Happiness Score: ${currentData[name]["Happiness Score"]}`
+  );
+  d3.select("#eco").text(
+    `Economy (GDP per Capita): ${currentData[name]["Economy (GDP per Capita)"]}`
+  );
+  d3.select("#freedom").text(`Freedom: ${currentData[name]["Freedom"]}`);
+  d3.select("#fss").text(
+    `Family (Social Support): ${currentData[name]["Family (Social Support)"]}`
+  );
+  d3.select("#hle").text(
+    `Health (Life Expectancy): ${currentData[name]["Health (Life Expectancy)"]}`
+  );
+  d3.select("#gen").text(`Generosity: ${currentData[name]["Generosity"]}`);
+  d3.select("#trust").text(
+    `Trust (Government Corruption): ${currentData[name]["Trust (Government Corruption)"]}`
+  );
 };
-// leave callback
+// right click callback
 var deselectCountry = function (event, d) {
   d3.select("#countryName").text("No country selected");
+  d3.select("#region").text(`Region:`);
+  d3.select("#hr").text(`Happiness Rank:`);
+  d3.select("#hs").text(`Happiness Score:`);
+  d3.select("#eco").text(`Economy (GDP per Capita):`);
+  d3.select("#freedom").text(`Freedom:`);
+  d3.select("#fss").text(`Family (Social Support):`);
+  d3.select("#hle").text(`Health (Life Expectancy):`);
+  d3.select("#gen").text(`Generosity:`);
+  d3.select("#trust").text(`Trust (Government Corruption):`);
 };
 
 Promise.all([
