@@ -16,14 +16,15 @@ function onYearChange(event) {
   });
 }
 
-const width = 950,
-  height = 700;
+const mapContainer = document.getElementById("mapContainer");
+const width = mapContainer.clientWidth,
+  height = 600;
 
 const sensitivity = 75;
 
 const projection = d3
   .geoOrthographic()
-  .scale(height / 2)
+  .scale(height / 2.1)
   .center([0, 0])
   .rotate([0, 0])
   .translate([width / 2, height / 2]);
