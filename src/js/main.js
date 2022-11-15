@@ -10,7 +10,7 @@ let currentData;
 const yearRange = document.getElementById("yearRange");
 yearRange.addEventListener("change", onYearChange);
 function onYearChange(event) {
-  d3.json(`/datasets/${this.value}.json`).then((data) => {
+  d3.json(`./datasets/${this.value}.json`).then((data) => {
     currentData = data;
     earth.selectAll("path").attr("fill", fillLand);
   });
@@ -87,7 +87,7 @@ var deselectCountry = function (event, d) {
 
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-  d3.json("/datasets/2015.json"),
+  d3.json("./datasets/2015.json"),
 ]).then(([topo, data]) => {
   const countries = topojson.feature(topo, topo.objects.countries);
   currentData = data;
