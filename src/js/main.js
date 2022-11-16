@@ -5,15 +5,15 @@ import * as topojson from "topojson-client";
 
 document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-let currentData;
+let currentYear = "2015";
+const worldHappinessData = await d3.json("./datasets/world-happiness.json");
+let currentData = worldHappinessData[currentYear];
 
 const yearRange = document.getElementById("yearRange");
 yearRange.addEventListener("change", onYearChange);
 function onYearChange(event) {
-  d3.json(`./datasets/${this.value}.json`).then((data) => {
-    currentData = data;
-    earth.selectAll("path").attr("fill", fillLand);
-  });
+  currentData = worldHappinessData[this.value];
+  earth.selectAll("path").attr("fill", fillLand);
 }
 
 const mapContainer = document.getElementById("mapContainer");
@@ -119,10 +119,8 @@ var deselectCountry = function (event, d) {
 
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-  d3.json("./datasets/2015.json"),
-]).then(([topo, data]) => {
+]).then(([topo]) => {
   const countries = topojson.feature(topo, topo.objects.countries);
-  currentData = data;
 
   earth
     .selectAll("path")
