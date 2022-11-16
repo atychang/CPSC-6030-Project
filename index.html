@@ -4,58 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CPSC 6030 Data Visualization Project Team 1</title>
-    <script type="module" crossorigin src="/CPSC-6030-Project/assets/index.a676802b.js"></script>
-    <link rel="stylesheet" href="/CPSC-6030-Project/assets/index.7534bbce.css">
+    <script type="module" crossorigin src="/CPSC-6030-Project/assets/index.c7805db6.js"></script>
+    <link rel="stylesheet" href="/CPSC-6030-Project/assets/index.e433c970.css">
   </head>
-  <body class="h-100">
-    <div class="container-fluid">
-      <div class="row">
-        <div id="infoContainer" class="col-2 card">
-          <div id="countryInfo" class="card-body">
-            <h5 id="countryName" class="card-title">No country selected</h5>
-            <p id="region" class="card-text">Region:</p>
-            <p id="hr" class="card-text">Happiness Rank:</p>
-            <p id="hs" class="card-text">Happiness Score:</p>
-            <p id="eco" class="card-text">Economy (GDP per Capita):</p>
-            <p id="freedom" class="card-text">Freedom to make life choices:</p>
-            <p id="fss" class="card-text">Family (Social Support):</p>
-            <p id="hle" class="card-text">Healthy life expectancy:</p>
-            <p id="gen" class="card-text">Generosity:</p>
-            <p id="trust" class="card-text">Trust (Government Corruption):</p>
-          </div>
-          <div id="legendBarContainer" class="card-body">
-            <h5 class="card-title">Happiness score</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              Darker means higher happiness score
-            </h6>
-            <svg id="legendBar"></svg>
-          </div>
-        </div>
-
-        <div id="mapContainer" class="col-6 d-flex justify-content-center">
-          <div id="timeSliderContainer">
-            <ul class="sliderLabels">
-              <li>2015</li>
-              <li>2016</li>
-              <li>2017</li>
-              <li>2018</li>
-              <li>2019</li>
-              <li>2020</li>
-              <li>2021</li>
-            </ul>
-            <input
-              type="range"
-              class="form-range justify-content-centerd"
-              min="2015"
-              max="2021"
-              value="2015"
-              step="1"
-              id="yearRange"
-            />
-          </div>
-        </div>
-
-        <div id="chartContainer" class="col-4"></div>
+  <body>
+    <div id="happinessScore" class="card">
+      <div class="card-body">
+        <h5 class="card-title">Happiness score</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          Darker means higher happiness score
+        </h6>
+        <svg id="legendBar"></svg>
+      </div>
+    </div>
+    <div
+      id="container"
+      class="h-100 d-flex align-items-center justify-content-center"
+    >
+      <div id="earth"></div>
+      <div id="timeSliderContainer">
+        <ul class="sliderLabels">
+          <li>2015</li>
+          <li>2016</li>
+          <li>2017</li>
+          <li>2018</li>
+          <li>2019</li>
+          <li>2020</li>
+          <li>2021</li>
+        </ul>
+        <input
+          type="range"
+          class="form-range"
+          min="2015"
+          max="2021"
+          value="2015"
+          step="1"
+          id="yearRange"
+        />
       </div>
     </div>
     
