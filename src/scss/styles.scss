@@ -1,7 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
 html,
-body {
+body,
+.modal-content {
   overflow: hidden;
   background-color: #37425b;
 }
@@ -49,5 +50,26 @@ body {
   li {
     display: inline-block;
     color: white;
+  }
+}
+
+#scatterplot {
+  color: white;
+  overflow: hidden;
+
+  rect {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .legend {
+    text {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
   }
 }
