@@ -8,7 +8,7 @@ import * as bootstrap from "bootstrap";
 const colors = d3.interpolateOrRd;
 export default colors;
 
-import initEarth from "./earth.js";
+import { initEarth } from "./earth.js";
 initEarth();
 
 import createLegend from "./legend.js";

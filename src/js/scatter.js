@@ -1,5 +1,7 @@
 import * as d3 from "d3";
 
+import { centerCountry, resetEarth } from "./earth.js";
+
 import worldHappiness from "../public/datasets/world-happiness.json";
 const defaultData = [];
 for (const [_, info] of Object.entries(worldHappiness["2015"])) {
@@ -94,7 +96,8 @@ graph
   .attr("r", "5")
   .on("mouseover", mouseover)
   .on("mousemove", mousemove)
-  .on("mouseleave", mouseleave);
+  .on("mouseleave", mouseleave)
+  .on("dblclick", doubleclick);
 
 const legend = graph
   .selectAll(".legend")
@@ -141,6 +144,7 @@ let selectedRegion = null;
 
 function highlightRegion(event, d) {
   reset();
+  resetEarth();
   if (d === "Select all region") {
     return;
   }
@@ -222,7 +226,7 @@ function optionChanged(_) {
   }
 }
 
-export function highlightCountry(country, focus) {
+export function highlightCountryOnScatter(country, focus) {
   reset();
   if (focus) {
     country = country.split(" ").join("-");
@@ -287,7 +291,6 @@ const tooltip = d3
 
 // hover callback
 function mouseover(event, d) {
-  console.log(d);
   if (selectedRegion != null && selectedRegion !== d["Region"]) {
     return;
   }
@@ -305,4 +308,8 @@ function mousemove(event, d) {
 function mouseleave(event, d) {
   d3.select("#sc_countryName").text("");
   tooltip.style("opacity", 0);
+}
+
+function doubleclick(event, d) {
+  centerCountry(d["Country"]);
 }
