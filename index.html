@@ -4,105 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CPSC 6030 Data Visualization Project Team 1</title>
-    <script type="module" crossorigin src="/CPSC-6030-Project/assets/index.7a5692dc.js"></script>
-    <link rel="stylesheet" href="/CPSC-6030-Project/assets/index.e33d8712.css">
+    <script type="module" crossorigin src="/CPSC-6030-Project/assets/index.77e78426.js"></script>
+    <link rel="stylesheet" href="/CPSC-6030-Project/assets/index.0807f78d.css">
   </head>
-  <body>
-    <nav class="navbar navbar-dark bg-dark justify-content-center">
-      <button
-        id="scatterBtn"
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#scatterModal"
-      >
-        Scatterplot
-      </button>
-    </nav>
-    <div id="happinessScore" class="card">
-      <div class="card-body">
-        <h5 class="card-title">Happiness score</h5>
-        <h6 class="card-subtitle mb-2 text-muted">
-          Darker means higher happiness score
-        </h6>
-        <svg id="legendBar"></svg>
-      </div>
-    </div>
-    <div
-      id="container"
-      class="h-100 d-flex align-items-center justify-content-center"
-    >
-      <div id="earth"></div>
-      <div id="timeSliderContainer">
-        <ul class="sliderLabels">
-          <li>2015</li>
-          <li>2016</li>
-          <li>2017</li>
-          <li>2018</li>
-          <li>2019</li>
-          <li>2020</li>
-          <li>2021</li>
-        </ul>
-        <input
-          type="range"
-          class="form-range"
-          min="2015"
-          max="2021"
-          value="2015"
-          step="1"
-          id="yearRange"
-        />
-      </div>
-    </div>
-    <div
-      class="modal fade"
-      id="scatterModal"
-      tabindex="-1"
-      aria-labelledby="scatterModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="scatterModalLabel">Scatter</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+  <body class="h-100">
+    <div id="container-fluid" class="h-100">
+      <div class="row h-100">
+        <div class="col">
+          <div class="row h-25">
+            <div class="row">
+              <div class="col-md-auto">
+                <div id="happinessScore" class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Happiness score</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      Darker means higher happiness score
+                    </h6>
+                    <svg id="legendBar"></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div id="countryInfo" class="card">
+                  <div class="card-body">
+                    <h5 id="g_countryName" class="card-title">
+                      No country selected
+                    </h5>
+                    <p id="g_region" class="card-text">Region:</p>
+                    <p id="g_h" class="card-text">
+                      Happiness Rank: , Happiness Score:
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="timeSliderContainer" class="w-50 mx-auto">
+                <ul class="sliderLabels">
+                  <li>2015</li>
+                  <li>2016</li>
+                  <li>2017</li>
+                  <li>2018</li>
+                  <li>2019</li>
+                  <li>2020</li>
+                  <li>2021</li>
+                </ul>
+                <input
+                  type="range"
+                  class="form-range"
+                  min="2015"
+                  max="2021"
+                  value="2015"
+                  step="1"
+                  id="yearRange"
+                />
+              </div>
+            </div>
           </div>
-          <div id="scatterplot" class="modal-body"></div>
-          <div class="modal-footer">
-            <button id="sc-btn-gdp" type="button" class="btn btn-primary">
-              Economy (GDP per Capita)
-            </button>
-            <button id="sc-btn-family" type="button" class="btn btn-primary">
-              Family (Social Support)
-            </button>
-            <button id="sc-btn-health" type="button" class="btn btn-primary">
-              Health (Life Expectancy)
-            </button>
-            <button id="sc-btn-freedom" type="button" class="btn btn-primary">
-              Freedom
-            </button>
-            <button id="sc-btn-trust" type="button" class="btn btn-primary">
-              Trust (Government Corruption)
-            </button>
-            <button
-              id="sc-btn-generosity"
-              type="button"
-              class="btn btn-primary"
-            >
-              Generosity
-            </button>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+          <div class="row h-75">
+            <div id="earth" class="d-flex justify-content-center"></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row h-50">
+            <div id="stackedBarChart"></div>
+          </div>
+          <div id="scatterContainer" class="row h-50">
+            <div id="scatterplot"></div>
           </div>
         </div>
       </div>
