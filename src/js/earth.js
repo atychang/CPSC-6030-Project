@@ -5,20 +5,36 @@ import worldHappiness from "../public/datasets/world-happiness.json";
 import countries from "../public/datasets/countries-110m.json";
 import colors from "./main.js";
 
-import { highlightCountryOnScatter, initScatter } from "./scatter.js";
+import {
+  highlightCountryOnScatter,
+  initScatter,
+  resetScatter,
+} from "./scatter.js";
 
 let currentYear = "2015";
 let currentData = worldHappiness[currentYear];
 let selectedCountry = null;
 
-const yearRange = document.getElementById("yearRange");
-yearRange.addEventListener("change", onYearChange);
-function onYearChange(event) {
-  currentYear = this.value;
-  currentData = worldHappiness[currentYear];
-  d3.select("#earth").selectAll("path").attr("fill", fillLand);
-  initScatter("Economy (GDP per Capita)", currentYear);
-}
+document
+  .getElementById("yearRange")
+  .addEventListener("change", function (event) {
+    currentYear = this.value;
+    currentData = worldHappiness[currentYear];
+    d3.select("#earth")
+      .selectAll("path")
+      .attr("fill", (d) => fillLand(d.properties.name));
+    initScatter("Economy (GDP per Capita)", currentYear);
+    if (selectedCountry !== null) {
+      const country = selectedCountry.attr("countryName");
+      if (currentData[country] === undefined) {
+        resetEarth();
+        resetScatter();
+        selectedCountry = null;
+      } else {
+        updateCountryInfo(country);
+      }
+    }
+  });
 
 const body = document.getElementById("earth");
 const width = body.clientWidth,
@@ -35,13 +51,13 @@ const projection = d3
 
 const initialScale = projection.scale();
 
-const mapSvg = d3
+const earth = d3
   .select("#earth")
   .append("svg")
   .attr("width", width)
   .attr("height", height);
 
-const globe = mapSvg
+const globe = earth
   .append("circle")
   .attr("cx", width / 2)
   .attr("cy", height / 2)
@@ -49,14 +65,14 @@ const globe = mapSvg
 
 let path = d3.geoPath().projection(projection);
 
-mapSvg
+earth
   .call(
     d3.drag().on("drag", function (event) {
       const rotate = projection.rotate();
       const k = sensitivity / projection.scale();
       projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
       path = d3.geoPath().projection(projection);
-      mapSvg.selectAll("path").attr("d", path);
+      earth.selectAll("path").attr("d", path);
     })
   )
   .call(
@@ -66,7 +82,7 @@ mapSvg
         if (event.transform.k > 0.3) {
           projection.scale(initialScale * event.transform.k);
           path = d3.geoPath().projection(projection);
-          mapSvg.selectAll("path").attr("d", path);
+          earth.selectAll("path").attr("d", path);
           globe.attr("r", projection.scale());
         } else {
           event.transform.k = 0.3;
@@ -76,25 +92,6 @@ mapSvg
         return event.type !== "dblclick";
       })
   );
-
-export function initEarth() {
-  mapSvg
-    .append("g")
-    .attr("id", "earth")
-    .selectAll("path")
-    .data(topojson.feature(countries, countries.objects.countries).features)
-    .enter()
-    .append("path")
-    .attr("countryName", (d) => d.properties.name)
-    .attr("class", (d) => "country_" + d.properties.name.replace(" ", "_"))
-    .attr("d", path)
-    .attr("fill", fillLand)
-    .on("mouseover", mouseover)
-    .on("mousemove", mousemove)
-    .on("mouseleave", mouseleave)
-    .on("dblclick", doubleclick);
-}
-
 const tooltip = d3
   .select("#earth")
   .append("div")
@@ -175,46 +172,97 @@ function mouseleave(event, d) {
   tooltip.style("opacity", 0);
 }
 
+// double click callback
 function doubleclick(event, d) {
   if (currentData[d.properties.name] === undefined) {
     return;
   }
   const country = d.properties.name;
   highlightCountryOnEarth(country);
+  highlightCountryOnScatter(country);
 }
 
-function highlightCountryOnEarth(country) {
-  if (selectedCountry !== null) {
-    selectedCountry.style("fill", fillLand);
-    if (country === selectedCountry.attr("countryName")) {
-      d3.select("#g_countryName").text("No country selected");
-      d3.select("#g_region").text(`Region:`);
-      d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
-      selectedCountry = null;
-      highlightCountryOnScatter("", false);
-      return;
-    }
-  }
-  selectedCountry = d3.select(`.country_${country.split(" ").join("-")}`);
-  selectedCountry.style("fill", "green");
-  d3.select("#g_countryName").text(`Country: ${country}`);
-  d3.select("#g_region").text(`Region: ${currentData[country]["Region"]}`);
-  d3.select("#g_h").text(
-    `Happiness Rank: ${currentData[country]["Happiness Rank"]}, Happiness Score: ${currentData[country]["Happiness Score"]}`
-  );
-  highlightCountryOnScatter(country, true);
-}
-
-function fillLand(d) {
-  if (d.properties.name in currentData) {
-    return colors(currentData[d.properties.name]["Happiness Score"] / 10);
+function fillLand(country) {
+  if (country in currentData) {
+    return colors(currentData[country]["Happiness Score"] / 10);
   } else {
     return "darkgrey";
   }
 }
 
+export function initEarth() {
+  earth
+    .append("g")
+    .attr("id", "earth")
+    .selectAll("path")
+    .data(topojson.feature(countries, countries.objects.countries).features)
+    .enter()
+    .append("path")
+    .attr("countryName", (d) => d.properties.name)
+    .attr("class", (d) => `country-${d.properties.name.split(" ").join("-")}`)
+    .attr("d", path)
+    .attr("fill", (d) => fillLand(d.properties.name))
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave)
+    .on("dblclick", doubleclick);
+}
+
+export function highlightCountryOnEarth(country) {
+  resetEarth();
+  if (
+    selectedCountry !== null &&
+    country === selectedCountry.attr("countryName")
+  ) {
+    selectedCountry = null;
+    return;
+  }
+  selectedCountry = d3.select(`.country-${country.split(" ").join("-")}`);
+  selectedCountry.style("fill", "green");
+  updateCountryInfo(country);
+}
+
+function updateCountryInfo(country) {
+  if (country !== null) {
+    d3.select("#g_countryName").text(`Country: ${country}`);
+    d3.select("#g_region").text(`Region: ${currentData[country]["Region"]}`);
+    d3.select("#g_h").text(
+      `Happiness Rank: ${currentData[country]["Happiness Rank"]}, Happiness Score: ${currentData[country]["Happiness Score"]}`
+    );
+  } else {
+    d3.select("#g_countryName").text("No country selected");
+    d3.select("#g_region").text(`Region:`);
+    d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
+  }
+}
+
+export function highlightRegionOnEarth(region, countries) {
+  resetEarth();
+  selectedCountry = null;
+  if (region === "Select all region") {
+    return;
+  }
+  let flag = false;
+  countries.forEach((country) => {
+    d3.select(`.country-${country.split(" ").join("-")}`).style("fill", (_) => {
+      if (!flag && centerCountry(country)) {
+        flag = true;
+      }
+      return "green";
+    });
+  });
+}
+
+export function resetEarth() {
+  d3.selectAll(`path[style*="fill: green"`).style("fill", "");
+  updateCountryInfo(null);
+}
+
 export function centerCountry(country) {
   const p = getCentroid(country);
+  if (p === undefined) {
+    return false;
+  }
   (function transition() {
     d3.transition()
       .duration(2500)
@@ -222,29 +270,19 @@ export function centerCountry(country) {
         const r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
         return function (t) {
           projection.rotate(r(t));
-          mapSvg.selectAll("path").attr("d", path);
+          earth.selectAll("path").attr("d", path);
         };
       });
   })();
-  highlightCountryOnEarth(country);
+  return true;
 }
 
 function getCentroid(country) {
-  const paths = mapSvg.selectAll("path");
+  const paths = earth.selectAll("path");
   for (let i = 0; i < paths.data().length; i++) {
     const p = paths.data()[i];
     if (p.properties.name === country) {
       return d3.geoCentroid(p);
     }
-  }
-}
-
-export function resetEarth() {
-  if (selectedCountry !== null) {
-    selectedCountry.style("fill", fillLand);
-    d3.select("#g_countryName").text("No country selected");
-    d3.select("#g_region").text(`Region:`);
-    d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
-    selectedCountry = null;
   }
 }

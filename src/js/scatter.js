@@ -1,6 +1,10 @@
 import * as d3 from "d3";
 
-import { centerCountry, resetEarth } from "./earth.js";
+import {
+  centerCountry,
+  highlightCountryOnEarth,
+  highlightRegionOnEarth,
+} from "./earth.js";
 
 import worldHappiness from "../public/datasets/world-happiness.json";
 const defaultData = [];
@@ -80,10 +84,11 @@ graph
   .data(defaultData)
   .enter()
   .append("circle")
+  .attr("countryName", (d) => d["Country"])
   .attr(
     "class",
     (d) =>
-      `country-${d["Country"]} region-${d["Region"]
+      `country-${d["Country"].split(" ").join("-")} region-${d["Region"]
         .split(" ")
         .join("-")} country-circle`
   )
@@ -141,23 +146,17 @@ legend
   .on("click", highlightRegion);
 
 let selectedRegion = null;
+let selectedCountry = null;
 
-function highlightRegion(event, d) {
-  reset();
-  resetEarth();
-  if (d === "Select all region") {
-    return;
-  }
-  selectedRegion = d;
-  const name = selectedRegion.split(" ").join("-");
-  legend.selectAll(`text:not(.${name})`).attr("opacity", "0.05");
-  graph.selectAll(`circle:not(.region-${name})`).attr("opacity", "0.05");
-}
-
-function reset() {
-  graph.selectAll("circle").attr("opacity", "1");
-  legend.selectAll("text").attr("opacity", "1");
-  selectedRegion = null;
+function highlightRegion(_, d) {
+  highlightRegionOnScatter(d);
+  const name =
+    selectedRegion !== null ? selectedRegion.split(" ").join("-") : "";
+  const countries = [];
+  graph.selectAll(`circle:is(.region-${name})`).each(function (d, i) {
+    countries.push(d["Country"]);
+  });
+  highlightRegionOnEarth(d, countries);
 }
 
 const fields = [
@@ -226,48 +225,6 @@ function optionChanged(_) {
   }
 }
 
-export function highlightCountryOnScatter(country, focus) {
-  reset();
-  if (focus) {
-    country = country.split(" ").join("-");
-    graph.selectAll(`circle:not(.country-${country})`).attr("opacity", "0.05");
-  }
-}
-
-export function initScatter(index, year) {
-  xLabel
-    .attr("y", graphHeight + 50)
-    .attr("x", graphWidth / 2)
-    .text(index);
-  yLabel.attr("x", -(graphHeight / 2));
-
-  legend.attr("transform", `translate(${graphWidth - margin}, ${0})`);
-
-  const data = [];
-  for (const [_, info] of Object.entries(worldHappiness[year])) {
-    data.push(info);
-  }
-
-  const xMax = Math.ceil(d3.max(data, (d) => d[index]));
-  xScale.domain([0, xMax]).range([0, graphWidth]);
-  xAxisGroup
-    .attr("transform", `translate(0, ${graphHeight})`)
-    .transition()
-    .call(xAxis);
-
-  const yMax = Math.ceil(d3.max(data, (d) => d["Happiness Score"]));
-  yScale.domain([yMax, 0]).range([0, graphHeight]);
-  yAxisGroup.transition().call(yAxis);
-
-  graph
-    .selectAll(".country-circle")
-    .data(data)
-    .transition()
-    .duration(750)
-    .attr("cx", (d) => xScale(d[index]))
-    .attr("cy", (d) => yScale(d["Happiness Score"]));
-}
-
 const tooltip = d3
   .select("#scatterplot")
   .append("div")
@@ -310,6 +267,74 @@ function mouseleave(event, d) {
   tooltip.style("opacity", 0);
 }
 
+// double click callback
 function doubleclick(event, d) {
   centerCountry(d["Country"]);
+  highlightCountryOnEarth(d["Country"]);
+  highlightCountryOnScatter(d["Country"]);
+}
+
+export function initScatter(index, year) {
+  xLabel
+    .attr("y", graphHeight + 50)
+    .attr("x", graphWidth / 2)
+    .text(index);
+  yLabel.attr("x", -(graphHeight / 2));
+
+  legend.attr("transform", `translate(${graphWidth - margin}, ${0})`);
+
+  const data = [];
+  for (const [_, info] of Object.entries(worldHappiness[year])) {
+    data.push(info);
+  }
+
+  const xMax = Math.ceil(d3.max(data, (d) => d[index]));
+  xScale.domain([0, xMax]).range([0, graphWidth]);
+  xAxisGroup
+    .attr("transform", `translate(0, ${graphHeight})`)
+    .transition()
+    .call(xAxis);
+
+  const yMax = Math.ceil(d3.max(data, (d) => d["Happiness Score"]));
+  yScale.domain([yMax, 0]).range([0, graphHeight]);
+  yAxisGroup.transition().call(yAxis);
+
+  graph
+    .selectAll(".country-circle")
+    .data(data)
+    .transition()
+    .duration(750)
+    .attr("cx", (d) => xScale(d[index]))
+    .attr("cy", (d) => yScale(d["Happiness Score"]));
+}
+
+export function highlightCountryOnScatter(country) {
+  resetScatter();
+  if (
+    selectedCountry != null &&
+    country === selectedCountry.attr("countryName")
+  ) {
+    selectedCountry = null;
+    return;
+  }
+  country = country.split(" ").join("-");
+  selectedCountry = d3.select(`.country-${country}`);
+  graph.selectAll(`circle:not(.country-${country})`).attr("opacity", "0.05");
+}
+
+export function highlightRegionOnScatter(region) {
+  resetScatter();
+  if (region === "Select all region") {
+    selectedRegion = null;
+    return;
+  }
+  selectedRegion = region;
+  const name = selectedRegion.split(" ").join("-");
+  legend.selectAll(`text:not(.${name})`).attr("opacity", "0.05");
+  graph.selectAll(`circle:not(.region-${name})`).attr("opacity", "0.05");
+}
+
+export function resetScatter() {
+  graph.selectAll("circle").attr("opacity", "1");
+  legend.selectAll("text").attr("opacity", "1");
 }
