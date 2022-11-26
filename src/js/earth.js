@@ -5,8 +5,11 @@ import worldHappiness from "../public/datasets/world-happiness.json";
 import countries from "../public/datasets/countries-110m.json";
 import colors from "./main.js";
 
+import { highlightCountry, initScatter } from "./scatter.js";
+
 let currentYear = "2015";
 let currentData = worldHappiness[currentYear];
+let selectedCountry = null;
 
 const yearRange = document.getElementById("yearRange");
 yearRange.addEventListener("change", onYearChange);
@@ -14,11 +17,13 @@ function onYearChange(event) {
   currentYear = this.value;
   currentData = worldHappiness[currentYear];
   d3.select("#earth").selectAll("path").attr("fill", fillLand);
+  initScatter("Economy (GDP per Capita)", currentYear);
 }
 
 export default function initEarth() {
-  const width = 800,
-    height = 600;
+  const body = document.getElementById("earth");
+  const width = body.clientWidth,
+    height = body.clientHeight - 20;
 
   const sensitivity = 75;
 
@@ -79,12 +84,14 @@ export default function initEarth() {
     .data(topojson.feature(countries, countries.objects.countries).features)
     .enter()
     .append("path")
+    .attr("countryName", (d) => d.properties.name)
     .attr("class", (d) => "country_" + d.properties.name.replace(" ", "_"))
     .attr("d", path)
     .attr("fill", fillLand)
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
-    .on("mouseleave", mouseleave);
+    .on("mouseleave", mouseleave)
+    .on("dblclick", doubleclick);
 }
 
 const tooltip = d3
@@ -92,7 +99,7 @@ const tooltip = d3
   .append("div")
   .style("opacity", 0)
   .style("position", "absolute")
-  .attr("class", "tooltip")
+  .attr("class", "tooltip unselectable")
   .style("background-color", "white")
   .style("border", "solid")
   .style("border-width", "1px")
@@ -119,6 +126,9 @@ const tooltip = d3
 // hover callback
 function mouseover(event, d) {
   const name = d.properties.name;
+  if (currentData[name] === undefined) {
+    return;
+  }
   d3.select("#countryName").text(name);
   d3.select("#region").text(`Region: ${currentData[name]["Region"]}`);
   d3.select("#hr").text(
@@ -162,6 +172,32 @@ function mouseleave(event, d) {
   d3.select("#gen").text(`Generosity:`);
   d3.select("#trust").text(`Trust (Government Corruption):`);
   tooltip.style("opacity", 0);
+}
+
+function doubleclick(event, d) {
+  if (currentData[d.properties.name] === undefined) {
+    return;
+  }
+  if (selectedCountry !== null) {
+    selectedCountry.style("fill", fillLand);
+    if (d.properties.name === selectedCountry.attr("countryName")) {
+      d3.select("#g_countryName").text("No country selected");
+      d3.select("#g_region").text(`Region:`);
+      d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
+      selectedCountry = null;
+      highlightCountry("", false);
+      return;
+    }
+  }
+  selectedCountry = d3.select(this);
+  selectedCountry.style("fill", "green");
+  const name = selectedCountry.attr("countryName");
+  d3.select("#g_countryName").text(`Country: ${name}`);
+  d3.select("#g_region").text(`Region: ${currentData[name]["Region"]}`);
+  d3.select("#g_h").text(
+    `Happiness Rank: ${currentData[name]["Happiness Rank"]}, Happiness Score: ${currentData[name]["Happiness Score"]}`
+  );
+  highlightCountry(name, true);
 }
 
 function fillLand(d) {
