@@ -5,7 +5,7 @@ import worldHappiness from "../public/datasets/world-happiness.json";
 import countries from "../public/datasets/countries-110m.json";
 import colors from "./main.js";
 
-import { highlightCountry, initScatter } from "./scatter.js";
+import { highlightCountryOnScatter, initScatter } from "./scatter.js";
 
 let currentYear = "2015";
 let currentData = worldHappiness[currentYear];
@@ -20,63 +20,64 @@ function onYearChange(event) {
   initScatter("Economy (GDP per Capita)", currentYear);
 }
 
-export default function initEarth() {
-  const body = document.getElementById("earth");
-  const width = body.clientWidth,
-    height = body.clientHeight - 20;
+const body = document.getElementById("earth");
+const width = body.clientWidth,
+  height = body.clientHeight - 20;
 
-  const sensitivity = 75;
+const sensitivity = 75;
 
-  const projection = d3
-    .geoOrthographic()
-    .scale(height / 2.1)
-    .center([0, 0])
-    .rotate([0, 0])
-    .translate([width / 2, height / 2]);
+const projection = d3
+  .geoOrthographic()
+  .scale(height / 2.1)
+  .center([0, 0])
+  .rotate([0, 0])
+  .translate([width / 2, height / 2]);
 
-  const initialScale = projection.scale();
-  let path = d3.geoPath().projection(projection);
+const initialScale = projection.scale();
 
-  const mapSvg = d3
-    .select("#earth")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+const mapSvg = d3
+  .select("#earth")
+  .append("svg")
+  .attr("width", width)
+  .attr("height", height);
 
-  const globe = mapSvg
-    .append("circle")
-    .attr("cx", width / 2)
-    .attr("cy", height / 2)
-    .attr("r", initialScale);
+const globe = mapSvg
+  .append("circle")
+  .attr("cx", width / 2)
+  .attr("cy", height / 2)
+  .attr("r", initialScale);
 
-  mapSvg
-    .call(
-      d3.drag().on("drag", function (event) {
-        const rotate = projection.rotate();
-        const k = sensitivity / projection.scale();
-        projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
-        path = d3.geoPath().projection(projection);
-        mapSvg.selectAll("path").attr("d", path);
+let path = d3.geoPath().projection(projection);
+
+mapSvg
+  .call(
+    d3.drag().on("drag", function (event) {
+      const rotate = projection.rotate();
+      const k = sensitivity / projection.scale();
+      projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
+      path = d3.geoPath().projection(projection);
+      mapSvg.selectAll("path").attr("d", path);
+    })
+  )
+  .call(
+    d3
+      .zoom()
+      .on("zoom", function (event) {
+        if (event.transform.k > 0.3) {
+          projection.scale(initialScale * event.transform.k);
+          path = d3.geoPath().projection(projection);
+          mapSvg.selectAll("path").attr("d", path);
+          globe.attr("r", projection.scale());
+        } else {
+          event.transform.k = 0.3;
+        }
       })
-    )
-    .call(
-      d3
-        .zoom()
-        .on("zoom", function (event) {
-          if (event.transform.k > 0.3) {
-            projection.scale(initialScale * event.transform.k);
-            path = d3.geoPath().projection(projection);
-            mapSvg.selectAll("path").attr("d", path);
-            globe.attr("r", projection.scale());
-          } else {
-            event.transform.k = 0.3;
-          }
-        })
-        .filter((event) => {
-          return event.type !== "dblclick";
-        })
-    );
+      .filter((event) => {
+        return event.type !== "dblclick";
+      })
+  );
 
+export function initEarth() {
   mapSvg
     .append("g")
     .attr("id", "earth")
@@ -178,26 +179,30 @@ function doubleclick(event, d) {
   if (currentData[d.properties.name] === undefined) {
     return;
   }
+  const country = d.properties.name;
+  highlightCountryOnEarth(country);
+}
+
+function highlightCountryOnEarth(country) {
   if (selectedCountry !== null) {
     selectedCountry.style("fill", fillLand);
-    if (d.properties.name === selectedCountry.attr("countryName")) {
+    if (country === selectedCountry.attr("countryName")) {
       d3.select("#g_countryName").text("No country selected");
       d3.select("#g_region").text(`Region:`);
       d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
       selectedCountry = null;
-      highlightCountry("", false);
+      highlightCountryOnScatter("", false);
       return;
     }
   }
-  selectedCountry = d3.select(this);
+  selectedCountry = d3.select(`.country_${country.split(" ").join("-")}`);
   selectedCountry.style("fill", "green");
-  const name = selectedCountry.attr("countryName");
-  d3.select("#g_countryName").text(`Country: ${name}`);
-  d3.select("#g_region").text(`Region: ${currentData[name]["Region"]}`);
+  d3.select("#g_countryName").text(`Country: ${country}`);
+  d3.select("#g_region").text(`Region: ${currentData[country]["Region"]}`);
   d3.select("#g_h").text(
-    `Happiness Rank: ${currentData[name]["Happiness Rank"]}, Happiness Score: ${currentData[name]["Happiness Score"]}`
+    `Happiness Rank: ${currentData[country]["Happiness Rank"]}, Happiness Score: ${currentData[country]["Happiness Score"]}`
   );
-  highlightCountry(name, true);
+  highlightCountryOnScatter(country, true);
 }
 
 function fillLand(d) {
@@ -205,5 +210,41 @@ function fillLand(d) {
     return colors(currentData[d.properties.name]["Happiness Score"] / 10);
   } else {
     return "darkgrey";
+  }
+}
+
+export function centerCountry(country) {
+  const p = getCentroid(country);
+  (function transition() {
+    d3.transition()
+      .duration(2500)
+      .tween("rotate", function () {
+        const r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
+        return function (t) {
+          projection.rotate(r(t));
+          mapSvg.selectAll("path").attr("d", path);
+        };
+      });
+  })();
+  highlightCountryOnEarth(country);
+}
+
+function getCentroid(country) {
+  const paths = mapSvg.selectAll("path");
+  for (let i = 0; i < paths.data().length; i++) {
+    const p = paths.data()[i];
+    if (p.properties.name === country) {
+      return d3.geoCentroid(p);
+    }
+  }
+}
+
+export function resetEarth() {
+  if (selectedCountry !== null) {
+    selectedCountry.style("fill", fillLand);
+    d3.select("#g_countryName").text("No country selected");
+    d3.select("#g_region").text(`Region:`);
+    d3.select("#g_h").text(`Happiness Rank: , Happiness Score:`);
+    selectedCountry = null;
   }
 }
