@@ -7,7 +7,7 @@ for (const [_, info] of Object.entries(worldHappiness["2015"])) {
 }
 
 const body = document.getElementById("scatterplot");
-let graphWidth = body.clientWidth - 150,
+const graphWidth = body.clientWidth - 150,
   graphHeight = body.clientHeight - 150;
 const margin = 100;
 
@@ -26,6 +26,10 @@ const regions = [
   "Select all region",
 ];
 const svg = d3.select("#scatterplot").append("svg");
+svg.attr(
+  "viewBox",
+  `0 0 ${graphWidth + margin * 2} ${graphHeight + margin * 2}`
+);
 
 const graph = svg
   .append("g")
@@ -87,7 +91,10 @@ graph
     const idx = regions.indexOf(d["Region"]);
     return color[idx];
   })
-  .attr("r", "5");
+  .attr("r", "5")
+  .on("mouseover", mouseover)
+  .on("mousemove", mousemove)
+  .on("mouseleave", mouseleave);
 
 const legend = graph
   .selectAll(".legend")
@@ -116,6 +123,7 @@ legend
 
 legend
   .append("text")
+  .attr("class", (d) => `${d.split(" ").join("-")}`)
   .attr("x", 25)
   .attr("text-anchor", "start")
   .attr("y", function (d, i) {
@@ -126,16 +134,103 @@ legend
     return d;
   })
   .attr("font-size", "12px")
-  .style("fill", "white");
+  .style("fill", "white")
+  .on("click", highlightRegion);
 
-export default function initScatter(index, year) {
-  graphWidth = body.clientWidth - 150;
-  graphHeight = body.clientHeight - 150;
-  svg.attr(
-    "viewBox",
-    `0 0 ${graphWidth + margin * 2} ${graphHeight + margin * 2}`
-  );
+let selectedRegion = null;
 
+function highlightRegion(event, d) {
+  reset();
+  if (d === "Select all region") {
+    return;
+  }
+  selectedRegion = d;
+  const name = selectedRegion.split(" ").join("-");
+  legend.selectAll(`text:not(.${name})`).attr("opacity", "0.05");
+  graph.selectAll(`circle:not(.region-${name})`).attr("opacity", "0.05");
+}
+
+function reset() {
+  graph.selectAll("circle").attr("opacity", "1");
+  legend.selectAll("text").attr("opacity", "1");
+  selectedRegion = null;
+}
+
+const fields = [
+  { label: "Economy (GDP per Capita)", value: 1 },
+  { label: "Family (Social Support)", value: 2 },
+  { label: "Health (Life Expectancy)", value: 3 },
+  { label: "Freedom", value: 4 },
+  { label: "Trust (Government Corruption)", value: 5 },
+  { label: "Generosity", value: 6 },
+];
+
+const dropDown = d3
+  .select("#scatterContainer")
+  .append("div")
+  .style("position", "absolute")
+  .append("select")
+  .attr("name", "fields")
+  .on("change", optionChanged);
+
+const options = dropDown
+  .selectAll("option")
+  .data(fields)
+  .enter()
+  .append("option");
+
+options
+  .text(function (d) {
+    return d.label;
+  })
+  .attr("value", function (d) {
+    return d.value;
+  });
+
+function optionChanged(_) {
+  switch (this.selectedIndex) {
+    case 0:
+      initScatter(
+        "Economy (GDP per Capita)",
+        document.getElementById("yearRange").value
+      );
+      break;
+    case 1:
+      initScatter(
+        "Family (Social Support)",
+        document.getElementById("yearRange").value
+      );
+      break;
+    case 2:
+      initScatter(
+        "Health (Life Expectancy)",
+        document.getElementById("yearRange").value
+      );
+      break;
+    case 3:
+      initScatter("Freedom", document.getElementById("yearRange").value);
+      break;
+    case 4:
+      initScatter(
+        "Trust (Government Corruption)",
+        document.getElementById("yearRange").value
+      );
+      break;
+    case 5:
+      initScatter("Generosity", document.getElementById("yearRange").value);
+      break;
+  }
+}
+
+export function highlightCountry(country, focus) {
+  reset();
+  if (focus) {
+    country = country.split(" ").join("-");
+    graph.selectAll(`circle:not(.country-${country})`).attr("opacity", "0.05");
+  }
+}
+
+export function initScatter(index, year) {
   xLabel
     .attr("y", graphHeight + 50)
     .attr("x", graphWidth / 2)
@@ -167,4 +262,47 @@ export default function initScatter(index, year) {
     .duration(750)
     .attr("cx", (d) => xScale(d[index]))
     .attr("cy", (d) => yScale(d["Happiness Score"]));
+}
+
+const tooltip = d3
+  .select("#scatterplot")
+  .append("div")
+  .style("opacity", 0)
+  .style("position", "absolute")
+  .attr("class", "tooltip")
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "1px")
+  .style("border-radius", "5px")
+  .style("padding", "10pddx")
+  .html(
+    `
+      <div class="card">
+        <div class="card-body">
+          <h5 id="sc_countryName" class="card-title">test</h5>
+        </div>
+      </div>
+    `
+  );
+
+// hover callback
+function mouseover(event, d) {
+  console.log(d);
+  if (selectedRegion != null && selectedRegion !== d["Region"]) {
+    return;
+  }
+  const name = d["Country"];
+  d3.select("#sc_countryName").text(name);
+  tooltip.style("opacity", 1);
+}
+
+// move callback
+function mousemove(event, d) {
+  tooltip.style("left", event.x + 10 + "px").style("top", event.y - 10 + "px");
+}
+
+// leave callback
+function mouseleave(event, d) {
+  d3.select("#sc_countryName").text("");
+  tooltip.style("opacity", 0);
 }
