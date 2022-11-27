@@ -4168,10 +4168,10 @@
       "Trust (Government Corruption)": "0.031612735",
       "Generosity": "0.57212311"
     },
-    "Taiwan Province of China": {
+    "Taiwan": {
       "Happiness Rank": "33",
-      "Country": "Taiwan Province of China",
-      "Region": "-",
+      "Country": "Taiwan",
+      "Region": "Eastern Asia",
       "Happiness Score": "6.421999931",
       "Economy (GDP per Capita)": "1.433626533",
       "Family (Social Support)": "1.384565353",
@@ -9670,10 +9670,10 @@
       "Trust (Government Corruption)": "0.083133668",
       "Generosity": "0.083094485"
     },
-    "Taiwan Province of China": {
+    "Taiwan": {
       "Happiness Rank": "25",
-      "Country": "Taiwan Province of China",
-      "Region": "East Asia",
+      "Country": "Taiwan",
+      "Region": "Eastern Asia",
       "Happiness Score": "6.45539999",
       "Economy (GDP per Capita)": "1.327470541",
       "Family (Social Support)": "1.357760668",
@@ -11496,10 +11496,10 @@
       "Trust (Government Corruption)": "0.183",
       "Generosity": "0.275"
     },
-    "Taiwan Province of China": {
+    "Taiwan": {
       "Happiness Rank": "24",
-      "Country": "Taiwan Province of China",
-      "Region": "East Asia",
+      "Country": "Taiwan",
+      "Region": "Eastern Asia",
       "Happiness Score": "6.584",
       "Economy (GDP per Capita)": "1.48",
       "Family (Social Support)": "0.982",
