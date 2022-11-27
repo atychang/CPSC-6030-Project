@@ -4,6 +4,7 @@ import * as topojson from "topojson-client";
 import worldHappiness from "../public/datasets/world-happiness.json";
 import countries from "../public/datasets/countries-110m.json";
 import colors from "./main.js";
+import { initStackedBarChart } from "./stackedBarChart.js";
 
 import {
   highlightCountryOnScatter,
@@ -180,6 +181,7 @@ function doubleclick(event, d) {
   const country = d.properties.name;
   highlightCountryOnEarth(country);
   highlightCountryOnScatter(country);
+  initStackedBarChart(country);
 }
 
 function fillLand(country) {

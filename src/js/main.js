@@ -19,4 +19,4 @@ const year = document.getElementById("yearRange").value;
 initScatter("Economy (GDP per Capita)", year);
 
 import { initStackedBarChart } from "./stackedBarChart.js";
-initStackedBarChart();
+initStackedBarChart(null);

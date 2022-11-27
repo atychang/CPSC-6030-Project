@@ -12,6 +12,8 @@ for (const [_, info] of Object.entries(worldHappiness["2015"])) {
   defaultData.push(info);
 }
 
+import { initStackedBarChart } from "./stackedBarChart.js";
+
 const body = document.getElementById("scatterplot");
 const graphWidth = body.clientWidth - 150,
   graphHeight = body.clientHeight - 150;
@@ -272,6 +274,7 @@ function doubleclick(event, d) {
   centerCountry(d["Country"]);
   highlightCountryOnEarth(d["Country"]);
   highlightCountryOnScatter(d["Country"]);
+  initStackedBarChart(d["Country"]);
 }
 
 export function initScatter(index, year) {
