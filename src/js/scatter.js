@@ -42,15 +42,15 @@ const graph = svg
   .attr("position", "relative")
   .attr("transform", `translate(${margin}, ${margin})`);
 
-const xScale = d3.scaleLinear().domain([0, 2]).range([0, graphWidth]);
-const xAxis = d3.axisBottom(xScale).ticks(20);
+const xScale = d3.scaleLinear().domain([0, 1.6]).range([0, graphWidth]);
+const xAxis = d3.axisBottom(xScale).ticks(16);
 const xAxisGroup = graph
   .append("g")
   .attr("transform", `translate(0, ${graphHeight})`)
   .call(xAxis);
 
-const yScale = d3.scaleLinear().domain([2, 0]).range([0, graphHeight]);
-const yAxis = d3.axisLeft(yScale).ticks(20);
+const yScale = d3.scaleLinear().domain([8, 0]).range([0, graphHeight]);
+const yAxis = d3.axisLeft(yScale).ticks(8);
 const yAxisGroup = graph.append("g").call(yAxis);
 
 const xLabel = graph
@@ -287,17 +287,6 @@ export function initScatter(index, year) {
   for (const [_, info] of Object.entries(worldHappiness[year])) {
     data.push(info);
   }
-
-  const xMax = Math.ceil(d3.max(data, (d) => d[index]));
-  xScale.domain([0, xMax]).range([0, graphWidth]);
-  xAxisGroup
-    .attr("transform", `translate(0, ${graphHeight})`)
-    .transition()
-    .call(xAxis);
-
-  const yMax = Math.ceil(d3.max(data, (d) => d["Happiness Score"]));
-  yScale.domain([yMax, 0]).range([0, graphHeight]);
-  yAxisGroup.transition().call(yAxis);
 
   graph
     .selectAll(".country-circle")
