@@ -185,4 +185,5 @@ function getEmptyData(year, country) {
 export function resetStackedBar() {
   d3.selectAll(".stackedbar > *").remove();
   d3.selectAll(".line > *").remove();
+  d3.selectAll(".dot > *").remove();
 }
