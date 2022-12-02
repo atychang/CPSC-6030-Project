@@ -49,7 +49,7 @@ const graph = svg
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 const xScale = d3.scaleLinear().domain([0, 2]).range([0, width]);
-const xAxis = d3.axisBottom(xScale).ticks(20);
+const xAxis = d3.axisBottom(xScale).ticks(10);
 const xAxisGroup = graph
   .append("g")
   .attr("transform", `translate(0, ${height})`)
@@ -282,6 +282,10 @@ export function initScatter(index, year) {
     data.push(info);
   }
 
+  const xMax = (getXMax(data, index) + parseFloat(0.1)).toFixed(1);
+  xScale.domain([0, xMax]);
+  xAxisGroup.transition().call(xAxis);
+
   graph
     .select(".g-scatter")
     .selectAll("circle")
@@ -343,4 +347,8 @@ export function unhighlightScatter() {
 
 function resetScatter() {
   d3.selectAll(".g-scatter > *").remove();
+}
+
+function getXMax(data, index) {
+  return Math.max(...data.map((d) => parseFloat(d[index])));
 }
