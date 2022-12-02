@@ -780,9 +780,9 @@
       "Trust (Government Corruption)": "0.02299",
       "Generosity": "0.2123"
     },
-    "North Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "66",
-      "Country": "North Cyprus",
+      "Country": "N. Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.695",
       "Economy (GDP per Capita)": "1.20806",
@@ -2630,9 +2630,9 @@
       "Trust (Government Corruption)": "0.17457",
       "Generosity": "0.13942"
     },
-    "North Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "62",
-      "Country": "North Cyprus",
+      "Country": "N. Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.771",
       "Economy (GDP per Capita)": "1.31141",
@@ -4375,7 +4375,7 @@
     "Belize": {
       "Happiness Rank": "50",
       "Country": "Belize",
-      "Region": "-",
+      "Region": "Latin America and Caribbean",
       "Happiness Score": "5.955999851",
       "Economy (GDP per Capita)": "0.907975316",
       "Family (Social Support)": "1.081417799",
@@ -4504,9 +4504,9 @@
       "Trust (Government Corruption)": "0.119282886",
       "Generosity": "0.201964423"
     },
-    "North Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "61",
-      "Country": "North Cyprus",
+      "Country": "N. Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.809999943",
       "Economy (GDP per Capita)": "1.346911311",
@@ -4624,10 +4624,10 @@
       "Trust (Government Corruption)": "0.091065913",
       "Generosity": "0.224150658"
     },
-    "Hong Kong S.A.R., China": {
+    "Hong Kong": {
       "Happiness Rank": "71",
-      "Country": "Hong Kong S.A.R., China",
-      "Region": "-",
+      "Country": "Hong Kong",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.472000122",
       "Economy (GDP per Capita)": "1.551674843",
       "Family (Social Support)": "1.262790918",
@@ -4891,7 +4891,7 @@
     "Somalia": {
       "Happiness Rank": "93",
       "Country": "Somalia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "5.151000023",
       "Economy (GDP per Capita)": "0.022643184",
       "Family (Social Support)": "0.721151352",
@@ -5107,7 +5107,7 @@
     "Namibia": {
       "Happiness Rank": "111",
       "Country": "Namibia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.573999882",
       "Economy (GDP per Capita)": "0.964434326",
       "Family (Social Support)": "1.098470807",
@@ -5539,7 +5539,7 @@
     "S. Sudan": {
       "Happiness Rank": "147",
       "Country": "S. Sudan",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "3.59100008",
       "Economy (GDP per Capita)": "0.397248626",
       "Family (Social Support)": "0.601323128",
@@ -6078,10 +6078,10 @@
       "Trust (Government Corruption)": "0.039",
       "Generosity": "0.099"
     },
-    "Trinidad & Tobago": {
+    "Trinidad and Tobago": {
       "Happiness Rank": "38",
-      "Country": "Trinidad & Tobago",
-      "Region": "-",
+      "Country": "Trinidad and Tobago",
+      "Region": "Latin America and Caribbean",
       "Happiness Score": "6.192",
       "Economy (GDP per Capita)": "1.223",
       "Family (Social Support)": "1.492",
@@ -6213,7 +6213,7 @@
     "Belize": {
       "Happiness Rank": "49",
       "Country": "Belize",
-      "Region": "-",
+      "Region": "Latin America and Caribbean",
       "Happiness Score": "5.956",
       "Economy (GDP per Capita)": "0.807",
       "Family (Social Support)": "1.101",
@@ -6318,10 +6318,10 @@
       "Trust (Government Corruption)": "0.051",
       "Generosity": "0.175"
     },
-    "Northern Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "58",
-      "Country": "Northern Cyprus",
-      "Region": "-",
+      "Country": "N. Cyprus",
+      "Region": "Western Europe",
       "Happiness Score": "5.835",
       "Economy (GDP per Capita)": "1.229",
       "Family (Social Support)": "1.211",
@@ -6801,7 +6801,7 @@
     "Somalia": {
       "Happiness Rank": "98",
       "Country": "Somalia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.982",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.712",
@@ -7053,7 +7053,7 @@
     "Namibia": {
       "Happiness Rank": "119",
       "Country": "Namibia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.441",
       "Economy (GDP per Capita)": "0.874",
       "Family (Social Support)": "1.281",
@@ -7473,7 +7473,7 @@
     "S. Sudan": {
       "Happiness Rank": "154",
       "Country": "S. Sudan",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "3.254",
       "Economy (GDP per Capita)": "0.337",
       "Family (Social Support)": "0.608",
@@ -7964,10 +7964,10 @@
       "Trust (Government Corruption)": "0.014",
       "Generosity": "0.121"
     },
-    "Trinidad & Tobago": {
+    "Trinidad and Tobago": {
       "Happiness Rank": "39",
-      "Country": "Trinidad & Tobago",
-      "Region": "-",
+      "Country": "Trinidad and Tobago",
+      "Region": "Latin America and Caribbean",
       "Happiness Score": "6.192",
       "Economy (GDP per Capita)": "1.231",
       "Family (Social Support)": "1.477",
@@ -8264,10 +8264,10 @@
       "Trust (Government Corruption)": "0.08",
       "Generosity": "0.184"
     },
-    "Northern Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "64",
-      "Country": "Northern Cyprus",
-      "Region": "-",
+      "Country": "N. Cyprus",
+      "Region": "Western Europe",
       "Happiness Score": "5.718",
       "Economy (GDP per Capita)": "1.263",
       "Family (Social Support)": "1.252",
@@ -8504,10 +8504,10 @@
       "Trust (Government Corruption)": "0.038",
       "Generosity": "0.235"
     },
-    "North Macedonia": {
+    "Macedonia": {
       "Happiness Rank": "84",
-      "Country": "North Macedonia",
-      "Region": "-",
+      "Country": "Macedonia",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.274",
       "Economy (GDP per Capita)": "0.983",
       "Family (Social Support)": "1.294",
@@ -8843,7 +8843,7 @@
     "Somalia": {
       "Happiness Rank": "112",
       "Country": "Somalia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.668",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.698",
@@ -8855,7 +8855,7 @@
     "Namibia": {
       "Happiness Rank": "113",
       "Country": "Namibia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.639",
       "Economy (GDP per Capita)": "0.879",
       "Family (Social Support)": "1.313",
@@ -8939,7 +8939,7 @@
     "Gambia": {
       "Happiness Rank": "120",
       "Country": "Gambia",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "4.516",
       "Economy (GDP per Capita)": "0.308",
       "Family (Social Support)": "0.939",
@@ -9371,7 +9371,7 @@
     "S. Sudan": {
       "Happiness Rank": "156",
       "Country": "S. Sudan",
-      "Region": "-",
+      "Region": "Sub-Saharan Africa",
       "Happiness Score": "2.853",
       "Economy (GDP per Capita)": "0.306",
       "Family (Social Support)": "0.575",
@@ -9469,7 +9469,7 @@
     "New Zealand": {
       "Happiness Rank": "8",
       "Country": "New Zealand",
-      "Region": "North America and ANZ",
+      "Region": "Australia and New Zealand",
       "Happiness Score": "7.299600124",
       "Economy (GDP per Capita)": "1.242317915",
       "Family (Social Support)": "1.48721838",
@@ -9505,7 +9505,7 @@
     "Canada": {
       "Happiness Rank": "11",
       "Country": "Canada",
-      "Region": "North America and ANZ",
+      "Region": "North America",
       "Happiness Score": "7.23210001",
       "Economy (GDP per Capita)": "1.301647663",
       "Family (Social Support)": "1.435391903",
@@ -9517,7 +9517,7 @@
     "Australia": {
       "Happiness Rank": "12",
       "Country": "Australia",
-      "Region": "North America and ANZ",
+      "Region": "Australia and New Zealand",
       "Happiness Score": "7.222799778",
       "Economy (GDP per Capita)": "1.310396433",
       "Family (Social Support)": "1.477146268",
@@ -9541,7 +9541,7 @@
     "Israel": {
       "Happiness Rank": "14",
       "Country": "Israel",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "7.128600121",
       "Economy (GDP per Capita)": "1.216463685",
       "Family (Social Support)": "1.403256774",
@@ -9589,7 +9589,7 @@
     "United States of America": {
       "Happiness Rank": "18",
       "Country": "United States of America",
-      "Region": "North America and ANZ",
+      "Region": "North America",
       "Happiness Score": "6.939599991",
       "Economy (GDP per Capita)": "1.37398684",
       "Family (Social Support)": "1.404786706",
@@ -9625,7 +9625,7 @@
     "United Arab Emirates": {
       "Happiness Rank": "21",
       "Country": "United Arab Emirates",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.790800095",
       "Economy (GDP per Capita)": "1.431086421",
       "Family (Social Support)": "1.251170993",
@@ -9697,7 +9697,7 @@
     "Saudi Arabia": {
       "Happiness Rank": "27",
       "Country": "Saudi Arabia",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.406499863",
       "Economy (GDP per Capita)": "1.334328532",
       "Family (Social Support)": "1.309950113",
@@ -9745,7 +9745,7 @@
     "Singapore": {
       "Happiness Rank": "31",
       "Country": "Singapore",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "6.377099991",
       "Economy (GDP per Capita)": "1.519580126",
       "Family (Social Support)": "1.39545691",
@@ -9829,7 +9829,7 @@
     "Uzbekistan": {
       "Happiness Rank": "38",
       "Country": "Uzbekistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "6.257599831",
       "Economy (GDP per Capita)": "0.696652949",
       "Family (Social Support)": "1.434020042",
@@ -9853,7 +9853,7 @@
     "Bahrain": {
       "Happiness Rank": "40",
       "Country": "Bahrain",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.227300167",
       "Economy (GDP per Capita)": "1.296692252",
       "Family (Social Support)": "1.31532371",
@@ -9949,7 +9949,7 @@
     "Kuwait": {
       "Happiness Rank": "48",
       "Country": "Kuwait",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.102099895",
       "Economy (GDP per Capita)": "1.424833655",
       "Family (Social Support)": "1.244779825",
@@ -9973,7 +9973,7 @@
     "Kazakhstan": {
       "Happiness Rank": "50",
       "Country": "Kazakhstan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "6.057899952",
       "Economy (GDP per Capita)": "1.122594237",
       "Family (Social Support)": "1.453267694",
@@ -9997,7 +9997,7 @@
     "Philippines": {
       "Happiness Rank": "52",
       "Country": "Philippines",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "6.006000042",
       "Economy (GDP per Capita)": "0.775120676",
       "Family (Social Support)": "1.245381713",
@@ -10021,7 +10021,7 @@
     "Thailand": {
       "Happiness Rank": "54",
       "Country": "Thailand",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.998799801",
       "Economy (GDP per Capita)": "1.007029295",
       "Family (Social Support)": "1.347519517",
@@ -10105,7 +10105,7 @@
     "South Korea": {
       "Happiness Rank": "61",
       "Country": "South Korea",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.872399807",
       "Economy (GDP per Capita)": "1.245300651",
       "Family (Social Support)": "1.133560538",
@@ -10117,7 +10117,7 @@
     "Japan": {
       "Happiness Rank": "62",
       "Country": "Japan",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.870800018",
       "Economy (GDP per Capita)": "1.26672411",
       "Family (Social Support)": "1.332338691",
@@ -10165,7 +10165,7 @@
     "Pakistan": {
       "Happiness Rank": "66",
       "Country": "Pakistan",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.69329977",
       "Economy (GDP per Capita)": "0.616799474",
       "Family (Social Support)": "0.872979581",
@@ -10213,7 +10213,7 @@
     "Moldova": {
       "Happiness Rank": "70",
       "Country": "Moldova",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.607500076",
       "Economy (GDP per Capita)": "0.707916796",
       "Family (Social Support)": "1.237312198",
@@ -10225,7 +10225,7 @@
     "Tajikistan": {
       "Happiness Rank": "71",
       "Country": "Tajikistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.555699825",
       "Economy (GDP per Capita)": "0.474874616",
       "Family (Social Support)": "1.218377709",
@@ -10249,7 +10249,7 @@
     "Russia": {
       "Happiness Rank": "73",
       "Country": "Russia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.546000004",
       "Economy (GDP per Capita)": "1.126999617",
       "Family (Social Support)": "1.378644109",
@@ -10261,7 +10261,7 @@
     "Kyrgyzstan": {
       "Happiness Rank": "74",
       "Country": "Kyrgyzstan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.541500092",
       "Economy (GDP per Capita)": "0.513180971",
       "Family (Social Support)": "1.341036677",
@@ -10273,7 +10273,7 @@
     "Belarus": {
       "Happiness Rank": "75",
       "Country": "Belarus",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.539899826",
       "Economy (GDP per Capita)": "1.018854499",
       "Family (Social Support)": "1.38713932",
@@ -10282,9 +10282,9 @@
       "Trust (Government Corruption)": "0.193607435",
       "Generosity": "0.08993306"
     },
-    "North Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "76",
-      "Country": "North Cyprus",
+      "Country": "N. Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.53550005",
       "Economy (GDP per Capita)": "1.21279943",
@@ -10306,10 +10306,10 @@
       "Trust (Government Corruption)": "0.048844352",
       "Generosity": "0"
     },
-    "Hong Kong S.A.R. of China": {
+    "Hong Kong": {
       "Happiness Rank": "78",
-      "Country": "Hong Kong S.A.R. of China",
-      "Region": "East Asia",
+      "Country": "Hong Kong",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.510399818",
       "Economy (GDP per Capita)": "1.376746058",
       "Family (Social Support)": "1.243584275",
@@ -10333,7 +10333,7 @@
     "Libya": {
       "Happiness Rank": "80",
       "Country": "Libya",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "5.488800049",
       "Economy (GDP per Capita)": "1.021913767",
       "Family (Social Support)": "1.196283698",
@@ -10345,7 +10345,7 @@
     "Mongolia": {
       "Happiness Rank": "81",
       "Country": "Mongolia",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.456200123",
       "Economy (GDP per Capita)": "0.904872775",
       "Family (Social Support)": "1.458930612",
@@ -10357,7 +10357,7 @@
     "Malaysia": {
       "Happiness Rank": "82",
       "Country": "Malaysia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.384300232",
       "Economy (GDP per Capita)": "1.168421626",
       "Family (Social Support)": "1.17400229",
@@ -10369,7 +10369,7 @@
     "Vietnam": {
       "Happiness Rank": "83",
       "Country": "Vietnam",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.353499889",
       "Economy (GDP per Capita)": "0.718092382",
       "Family (Social Support)": "1.253074765",
@@ -10381,7 +10381,7 @@
     "Indonesia": {
       "Happiness Rank": "84",
       "Country": "Indonesia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.285600185",
       "Economy (GDP per Capita)": "0.891720712",
       "Family (Social Support)": "1.154800892",
@@ -10417,7 +10417,7 @@
     "Maldives": {
       "Happiness Rank": "87",
       "Country": "Maldives",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.197599888",
       "Economy (GDP per Capita)": "0.937864304",
       "Family (Social Support)": "1.402287602",
@@ -10441,7 +10441,7 @@
     "Azerbaijan": {
       "Happiness Rank": "89",
       "Country": "Azerbaijan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.164800167",
       "Economy (GDP per Capita)": "0.990272701",
       "Family (Social Support)": "1.180613041",
@@ -10477,7 +10477,7 @@
     "Nepal": {
       "Happiness Rank": "92",
       "Country": "Nepal",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.137199879",
       "Economy (GDP per Capita)": "0.444050372",
       "Family (Social Support)": "1.100789309",
@@ -10489,7 +10489,7 @@
     "Turkey": {
       "Happiness Rank": "93",
       "Country": "Turkey",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "5.131800175",
       "Economy (GDP per Capita)": "1.127169251",
       "Family (Social Support)": "1.197159171",
@@ -10501,7 +10501,7 @@
     "China": {
       "Happiness Rank": "94",
       "Country": "China",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.123899937",
       "Economy (GDP per Capita)": "0.990533412",
       "Family (Social Support)": "1.132080674",
@@ -10513,7 +10513,7 @@
     "Turkmenistan": {
       "Happiness Rank": "95",
       "Country": "Turkmenistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.119100094",
       "Economy (GDP per Capita)": "1.008963585",
       "Family (Social Support)": "1.510476947",
@@ -10537,7 +10537,7 @@
     "Morocco": {
       "Happiness Rank": "97",
       "Country": "Morocco",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "5.094799995",
       "Economy (GDP per Capita)": "0.75862211",
       "Family (Social Support)": "0.645208478",
@@ -10573,7 +10573,7 @@
     "Algeria": {
       "Happiness Rank": "100",
       "Country": "Algeria",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "5.005099773",
       "Economy (GDP per Capita)": "0.943856001",
       "Family (Social Support)": "1.143003583",
@@ -10621,7 +10621,7 @@
     "Laos": {
       "Happiness Rank": "104",
       "Country": "Laos",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "4.888599873",
       "Economy (GDP per Capita)": "0.714693844",
       "Family (Social Support)": "0.987391889",
@@ -10645,7 +10645,7 @@
     "Cambodia": {
       "Happiness Rank": "106",
       "Country": "Cambodia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "4.848400116",
       "Economy (GDP per Capita)": "0.544634938",
       "Family (Social Support)": "1.071426034",
@@ -10657,7 +10657,7 @@
     "Bangladesh": {
       "Happiness Rank": "107",
       "Country": "Bangladesh",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "4.832799911",
       "Economy (GDP per Capita)": "0.556156278",
       "Family (Social Support)": "0.868800581",
@@ -10693,7 +10693,7 @@
     "Iraq": {
       "Happiness Rank": "110",
       "Country": "Iraq",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.784800053",
       "Economy (GDP per Capita)": "0.982018709",
       "Family (Social Support)": "1.011466622",
@@ -10705,7 +10705,7 @@
     "Lebanon": {
       "Happiness Rank": "111",
       "Country": "Lebanon",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.771500111",
       "Economy (GDP per Capita)": "0.889232516",
       "Family (Social Support)": "1.19249332",
@@ -10765,7 +10765,7 @@
     "Armenia": {
       "Happiness Rank": "116",
       "Country": "Armenia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "4.676799774",
       "Economy (GDP per Capita)": "0.808262408",
       "Family (Social Support)": "1.034576893",
@@ -10777,7 +10777,7 @@
     "Georgia": {
       "Happiness Rank": "117",
       "Country": "Georgia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "4.672599792",
       "Economy (GDP per Capita)": "0.847198069",
       "Family (Social Support)": "0.7311939",
@@ -10789,7 +10789,7 @@
     "Iran": {
       "Happiness Rank": "118",
       "Country": "Iran",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.672399998",
       "Economy (GDP per Capita)": "1.029322505",
       "Family (Social Support)": "0.886271179",
@@ -10801,7 +10801,7 @@
     "Jordan": {
       "Happiness Rank": "119",
       "Country": "Jordan",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.633399963",
       "Economy (GDP per Capita)": "0.785179198",
       "Family (Social Support)": "1.140118599",
@@ -10849,7 +10849,7 @@
     "Ukraine": {
       "Happiness Rank": "123",
       "Country": "Ukraine",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "4.56069994",
       "Economy (GDP per Capita)": "0.780434608",
       "Family (Social Support)": "1.321316481",
@@ -10873,7 +10873,7 @@
     "Palestinian Territories": {
       "Happiness Rank": "125",
       "Country": "Palestinian Territories",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.552800179",
       "Economy (GDP per Capita)": "0.587819219",
       "Family (Social Support)": "1.194755554",
@@ -10909,7 +10909,7 @@
     "Tunisia": {
       "Happiness Rank": "128",
       "Country": "Tunisia",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.392199993",
       "Economy (GDP per Capita)": "0.874742687",
       "Family (Social Support)": "0.872167706",
@@ -10933,7 +10933,7 @@
     "Sri Lanka": {
       "Happiness Rank": "130",
       "Country": "Sri Lanka",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "4.327000141",
       "Economy (GDP per Capita)": "0.897986948",
       "Family (Social Support)": "1.19494009",
@@ -10969,7 +10969,7 @@
     "Myanmar": {
       "Happiness Rank": "133",
       "Country": "Myanmar",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "4.308000088",
       "Economy (GDP per Capita)": "0.67809093",
       "Family (Social Support)": "1.098178267",
@@ -11029,7 +11029,7 @@
     "Egypt": {
       "Happiness Rank": "138",
       "Country": "Egypt",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.151400089",
       "Economy (GDP per Capita)": "0.875228941",
       "Family (Social Support)": "0.982539535",
@@ -11101,7 +11101,7 @@
     "India": {
       "Happiness Rank": "144",
       "Country": "India",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "3.573299885",
       "Economy (GDP per Capita)": "0.730576158",
       "Family (Social Support)": "0.644198656",
@@ -11125,7 +11125,7 @@
     "Yemen": {
       "Happiness Rank": "146",
       "Country": "Yemen",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "3.527400017",
       "Economy (GDP per Capita)": "0.392701775",
       "Family (Social Support)": "1.177477121",
@@ -11209,7 +11209,7 @@
     "Afghanistan": {
       "Happiness Rank": "153",
       "Country": "Afghanistan",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "2.566900015",
       "Economy (GDP per Capita)": "0.30070585",
       "Family (Social Support)": "0.356433839",
@@ -11319,7 +11319,7 @@
     "New Zealand": {
       "Happiness Rank": "9",
       "Country": "New Zealand",
-      "Region": "North America and ANZ",
+      "Region": "Australia and New Zealand",
       "Happiness Score": "7.277",
       "Economy (GDP per Capita)": "1.4",
       "Family (Social Support)": "1.094",
@@ -11343,7 +11343,7 @@
     "Australia": {
       "Happiness Rank": "11",
       "Country": "Australia",
-      "Region": "North America and ANZ",
+      "Region": "Australia and New Zealand",
       "Happiness Score": "7.183",
       "Economy (GDP per Capita)": "1.453",
       "Family (Social Support)": "1.076",
@@ -11355,7 +11355,7 @@
     "Israel": {
       "Happiness Rank": "12",
       "Country": "Israel",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "7.157",
       "Economy (GDP per Capita)": "1.376",
       "Family (Social Support)": "1.074",
@@ -11379,7 +11379,7 @@
     "Canada": {
       "Happiness Rank": "14",
       "Country": "Canada",
-      "Region": "North America and ANZ",
+      "Region": "North America",
       "Happiness Score": "7.103",
       "Economy (GDP per Capita)": "1.447",
       "Family (Social Support)": "1.044",
@@ -11439,7 +11439,7 @@
     "United States of America": {
       "Happiness Rank": "19",
       "Country": "United States of America",
-      "Region": "North America and ANZ",
+      "Region": "North America",
       "Happiness Score": "6.951",
       "Economy (GDP per Capita)": "1.533",
       "Family (Social Support)": "1.03",
@@ -11475,7 +11475,7 @@
     "Bahrain": {
       "Happiness Rank": "22",
       "Country": "Bahrain",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.647",
       "Economy (GDP per Capita)": "1.409",
       "Family (Social Support)": "0.899",
@@ -11511,7 +11511,7 @@
     "United Arab Emirates": {
       "Happiness Rank": "25",
       "Country": "United Arab Emirates",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.561",
       "Economy (GDP per Capita)": "1.555",
       "Family (Social Support)": "0.86",
@@ -11523,7 +11523,7 @@
     "Saudi Arabia": {
       "Happiness Rank": "26",
       "Country": "Saudi Arabia",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.494",
       "Economy (GDP per Capita)": "1.435",
       "Family (Social Support)": "0.964",
@@ -11595,7 +11595,7 @@
     "Singapore": {
       "Happiness Rank": "32",
       "Country": "Singapore",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "6.377",
       "Economy (GDP per Capita)": "1.695",
       "Family (Social Support)": "1.019",
@@ -11715,7 +11715,7 @@
     "Uzbekistan": {
       "Happiness Rank": "42",
       "Country": "Uzbekistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "6.179",
       "Economy (GDP per Capita)": "0.769",
       "Family (Social Support)": "1.027",
@@ -11751,7 +11751,7 @@
     "Kazakhstan": {
       "Happiness Rank": "45",
       "Country": "Kazakhstan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "6.152",
       "Economy (GDP per Capita)": "1.23",
       "Family (Social Support)": "1.103",
@@ -11775,7 +11775,7 @@
     "Kuwait": {
       "Happiness Rank": "47",
       "Country": "Kuwait",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "6.106",
       "Economy (GDP per Capita)": "1.461",
       "Family (Social Support)": "0.857",
@@ -11859,7 +11859,7 @@
     "Thailand": {
       "Happiness Rank": "54",
       "Country": "Thailand",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.985",
       "Economy (GDP per Capita)": "1.107",
       "Family (Social Support)": "0.957",
@@ -11883,7 +11883,7 @@
     "Japan": {
       "Happiness Rank": "56",
       "Country": "Japan",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.94",
       "Economy (GDP per Capita)": "1.389",
       "Family (Social Support)": "0.949",
@@ -11943,7 +11943,7 @@
     "Philippines": {
       "Happiness Rank": "61",
       "Country": "Philippines",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.88",
       "Economy (GDP per Capita)": "0.853",
       "Family (Social Support)": "0.828",
@@ -11955,7 +11955,7 @@
     "South Korea": {
       "Happiness Rank": "62",
       "Country": "South Korea",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.845",
       "Economy (GDP per Capita)": "1.403",
       "Family (Social Support)": "0.758",
@@ -11991,7 +11991,7 @@
     "Moldova": {
       "Happiness Rank": "65",
       "Country": "Moldova",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.766",
       "Economy (GDP per Capita)": "0.985",
       "Family (Social Support)": "0.888",
@@ -12015,7 +12015,7 @@
     "Kyrgyzstan": {
       "Happiness Rank": "67",
       "Country": "Kyrgyzstan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.744",
       "Economy (GDP per Capita)": "0.665",
       "Family (Social Support)": "0.971",
@@ -12051,7 +12051,7 @@
     "Mongolia": {
       "Happiness Rank": "70",
       "Country": "Mongolia",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.677",
       "Economy (GDP per Capita)": "0.966",
       "Family (Social Support)": "1.065",
@@ -12096,9 +12096,9 @@
       "Trust (Government Corruption)": "0.144",
       "Generosity": "0.101"
     },
-    "North Cyprus": {
+    "N. Cyprus": {
       "Happiness Rank": "74",
-      "Country": "North Cyprus",
+      "Country": "N. Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.536",
       "Economy (GDP per Capita)": "1.377",
@@ -12111,7 +12111,7 @@
     "Belarus": {
       "Happiness Rank": "75",
       "Country": "Belarus",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.534",
       "Economy (GDP per Capita)": "1.124",
       "Family (Social Support)": "1.007",
@@ -12123,7 +12123,7 @@
     "Russia": {
       "Happiness Rank": "76",
       "Country": "Russia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.477",
       "Economy (GDP per Capita)": "1.241",
       "Family (Social Support)": "0.992",
@@ -12132,10 +12132,10 @@
       "Trust (Government Corruption)": "0.06",
       "Generosity": "0.115"
     },
-    "Hong Kong S.A.R. of China": {
+    "Hong Kong": {
       "Happiness Rank": "77",
-      "Country": "Hong Kong S.A.R. of China",
-      "Region": "East Asia",
+      "Country": "Hong Kong",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.477",
       "Economy (GDP per Capita)": "1.525",
       "Family (Social Support)": "0.841",
@@ -12147,7 +12147,7 @@
     "Tajikistan": {
       "Happiness Rank": "78",
       "Country": "Tajikistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.466",
       "Economy (GDP per Capita)": "0.508",
       "Family (Social Support)": "0.895",
@@ -12159,7 +12159,7 @@
     "Vietnam": {
       "Happiness Rank": "79",
       "Country": "Vietnam",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.411",
       "Economy (GDP per Capita)": "0.817",
       "Family (Social Support)": "0.873",
@@ -12171,7 +12171,7 @@
     "Libya": {
       "Happiness Rank": "80",
       "Country": "Libya",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "5.41",
       "Economy (GDP per Capita)": "1.044",
       "Family (Social Support)": "0.821",
@@ -12183,7 +12183,7 @@
     "Malaysia": {
       "Happiness Rank": "81",
       "Country": "Malaysia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.384",
       "Economy (GDP per Capita)": "1.259",
       "Family (Social Support)": "0.797",
@@ -12195,7 +12195,7 @@
     "Indonesia": {
       "Happiness Rank": "82",
       "Country": "Indonesia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.345",
       "Economy (GDP per Capita)": "0.954",
       "Family (Social Support)": "0.786",
@@ -12219,7 +12219,7 @@
     "China": {
       "Happiness Rank": "84",
       "Country": "China",
-      "Region": "East Asia",
+      "Region": "Eastern Asia",
       "Happiness Score": "5.339",
       "Economy (GDP per Capita)": "1.061",
       "Family (Social Support)": "0.785",
@@ -12243,7 +12243,7 @@
     "Armenia": {
       "Happiness Rank": "86",
       "Country": "Armenia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.283",
       "Economy (GDP per Capita)": "0.996",
       "Family (Social Support)": "0.758",
@@ -12255,7 +12255,7 @@
     "Nepal": {
       "Happiness Rank": "87",
       "Country": "Nepal",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.269",
       "Economy (GDP per Capita)": "0.519",
       "Family (Social Support)": "0.702",
@@ -12279,7 +12279,7 @@
     "Maldives": {
       "Happiness Rank": "89",
       "Country": "Maldives",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.198",
       "Economy (GDP per Capita)": "1.115",
       "Family (Social Support)": "1.015",
@@ -12291,7 +12291,7 @@
     "Azerbaijan": {
       "Happiness Rank": "90",
       "Country": "Azerbaijan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.171",
       "Economy (GDP per Capita)": "1.025",
       "Family (Social Support)": "0.841",
@@ -12375,7 +12375,7 @@
     "Turkmenistan": {
       "Happiness Rank": "97",
       "Country": "Turkmenistan",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "5.066",
       "Economy (GDP per Capita)": "1.046",
       "Family (Social Support)": "1.172",
@@ -12411,7 +12411,7 @@
     "Laos": {
       "Happiness Rank": "100",
       "Country": "Laos",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "5.03",
       "Economy (GDP per Capita)": "0.808",
       "Family (Social Support)": "0.598",
@@ -12423,7 +12423,7 @@
     "Bangladesh": {
       "Happiness Rank": "101",
       "Country": "Bangladesh",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "5.025",
       "Economy (GDP per Capita)": "0.635",
       "Family (Social Support)": "0.52",
@@ -12459,7 +12459,7 @@
     "Turkey": {
       "Happiness Rank": "104",
       "Country": "Turkey",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.948",
       "Economy (GDP per Capita)": "1.26",
       "Family (Social Support)": "0.809",
@@ -12471,7 +12471,7 @@
     "Pakistan": {
       "Happiness Rank": "105",
       "Country": "Pakistan",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "4.934",
       "Economy (GDP per Capita)": "0.637",
       "Family (Social Support)": "0.423",
@@ -12483,7 +12483,7 @@
     "Morocco": {
       "Happiness Rank": "106",
       "Country": "Morocco",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.918",
       "Economy (GDP per Capita)": "0.792",
       "Family (Social Support)": "0.219",
@@ -12507,7 +12507,7 @@
     "Georgia": {
       "Happiness Rank": "108",
       "Country": "Georgia",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "4.891",
       "Economy (GDP per Capita)": "1.03",
       "Family (Social Support)": "0.47",
@@ -12519,7 +12519,7 @@
     "Algeria": {
       "Happiness Rank": "109",
       "Country": "Algeria",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.887",
       "Economy (GDP per Capita)": "0.946",
       "Family (Social Support)": "0.765",
@@ -12531,7 +12531,7 @@
     "Ukraine": {
       "Happiness Rank": "110",
       "Country": "Ukraine",
-      "Region": "Commonwealth of Independent States",
+      "Region": "Central and Eastern Europe",
       "Happiness Score": "4.875",
       "Economy (GDP per Capita)": "0.979",
       "Family (Social Support)": "0.958",
@@ -12543,7 +12543,7 @@
     "Iraq": {
       "Happiness Rank": "111",
       "Country": "Iraq",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.854",
       "Economy (GDP per Capita)": "0.91",
       "Family (Social Support)": "0.638",
@@ -12579,7 +12579,7 @@
     "Cambodia": {
       "Happiness Rank": "114",
       "Country": "Cambodia",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "4.83",
       "Economy (GDP per Capita)": "0.603",
       "Family (Social Support)": "0.68",
@@ -12627,7 +12627,7 @@
     "Iran": {
       "Happiness Rank": "118",
       "Country": "Iran",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.721",
       "Economy (GDP per Capita)": "1.03",
       "Family (Social Support)": "0.557",
@@ -12675,7 +12675,7 @@
     "Tunisia": {
       "Happiness Rank": "122",
       "Country": "Tunisia",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.596",
       "Economy (GDP per Capita)": "0.919",
       "Family (Social Support)": "0.515",
@@ -12687,7 +12687,7 @@
     "Lebanon": {
       "Happiness Rank": "123",
       "Country": "Lebanon",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.584",
       "Economy (GDP per Capita)": "1.045",
       "Family (Social Support)": "0.868",
@@ -12711,7 +12711,7 @@
     "Palestinian Territories": {
       "Happiness Rank": "125",
       "Country": "Palestinian Territories",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.517",
       "Economy (GDP per Capita)": "0.646",
       "Family (Social Support)": "0.819",
@@ -12723,7 +12723,7 @@
     "Myanmar": {
       "Happiness Rank": "126",
       "Country": "Myanmar",
-      "Region": "Southeast Asia",
+      "Region": "Southeastern Asia",
       "Happiness Score": "4.426",
       "Economy (GDP per Capita)": "0.666",
       "Family (Social Support)": "0.713",
@@ -12735,7 +12735,7 @@
     "Jordan": {
       "Happiness Rank": "127",
       "Country": "Jordan",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.395",
       "Economy (GDP per Capita)": "0.89",
       "Family (Social Support)": "0.685",
@@ -12759,7 +12759,7 @@
     "Sri Lanka": {
       "Happiness Rank": "129",
       "Country": "Sri Lanka",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "4.325",
       "Economy (GDP per Capita)": "0.99",
       "Family (Social Support)": "0.82",
@@ -12795,7 +12795,7 @@
     "Egypt": {
       "Happiness Rank": "132",
       "Country": "Egypt",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "4.283",
       "Economy (GDP per Capita)": "0.954",
       "Family (Social Support)": "0.647",
@@ -12879,7 +12879,7 @@
     "India": {
       "Happiness Rank": "139",
       "Country": "India",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "3.819",
       "Economy (GDP per Capita)": "0.741",
       "Family (Social Support)": "0.316",
@@ -12903,7 +12903,7 @@
     "Yemen": {
       "Happiness Rank": "141",
       "Country": "Yemen",
-      "Region": "Middle East and North Africa",
+      "Region": "Middle East and Northern Africa",
       "Happiness Score": "3.658",
       "Economy (GDP per Capita)": "0.329",
       "Family (Social Support)": "0.831",
@@ -12999,7 +12999,7 @@
     "Afghanistan": {
       "Happiness Rank": "149",
       "Country": "Afghanistan",
-      "Region": "South Asia",
+      "Region": "Southern Asia",
       "Happiness Score": "2.523",
       "Economy (GDP per Capita)": "0.37",
       "Family (Social Support)": "0",
