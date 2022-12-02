@@ -35,8 +35,6 @@ document
         resetEarth();
         unhighlightScatter();
         selectedCountry = null;
-      } else {
-        updateCountryInfo(country);
       }
     }
   });
@@ -225,7 +223,6 @@ export function highlightCountryOnEarth(country) {
   }
   selectedCountry = d3.select(`.country-${country.split(" ").join("-")}`);
   selectedCountry.style("fill", "green");
-  updateCountryInfo(country);
 }
 
 function updateCountryInfo(country) {
@@ -261,7 +258,6 @@ export function highlightRegionOnEarth(region, countries) {
 
 export function resetEarth() {
   d3.selectAll(`path[style*="fill: green"`).style("fill", "");
-  updateCountryInfo(null);
 }
 
 export function centerCountry(country) {
