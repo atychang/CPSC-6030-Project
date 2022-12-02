@@ -29,7 +29,7 @@ const regions = [
   "Southeastern Asia",
   "Central and Eastern Europe",
   "Eastern Asia",
-  "Sub-Saharan Africa",
+  "Sub Saharan Africa",
   "Southern Asia",
   "Select all region",
 ];
@@ -91,7 +91,7 @@ graph
   .attr(
     "class",
     (d) =>
-      `country-${d["Country"].split(" ").join("-")} region-${d["Region"]
+      `c-country-${d["Country"].split(" ").join("-")} c-region-${d["Region"]
         .split(" ")
         .join("-")} country-circle`
   )
@@ -156,7 +156,7 @@ function highlightRegion(_, d) {
   const name =
     selectedRegion !== null ? selectedRegion.split(" ").join("-") : "";
   const countries = [];
-  graph.selectAll(`circle:is(.region-${name})`).each(function (d, i) {
+  graph.selectAll(`circle:is(.c-region-${name})`).each(function (d, i) {
     countries.push(d["Country"]);
   });
   highlightRegionOnEarth(d, countries);
@@ -288,7 +288,7 @@ export function initScatter(index, year) {
     .attr(
       "class",
       (d) =>
-        `country-${d["Country"].split(" ").join("-")} region-${d["Region"]
+        `c-country-${d["Country"].split(" ").join("-")} c-region-${d["Region"]
           .split(" ")
           .join("-")} country-circle`
     )
@@ -315,8 +315,8 @@ export function highlightCountryOnScatter(country) {
     return;
   }
   country = country.split(" ").join("-");
-  selectedCountry = d3.select(`.country-${country}`);
-  graph.selectAll(`circle:not(.country-${country})`).attr("opacity", "0.05");
+  selectedCountry = d3.select(`.c-country-${country}`);
+  graph.selectAll(`circle:not(.c-country-${country})`).attr("opacity", "0.05");
 }
 
 export function highlightRegionOnScatter(region) {
@@ -328,7 +328,7 @@ export function highlightRegionOnScatter(region) {
   selectedRegion = region;
   const name = selectedRegion.split(" ").join("-");
   legend.selectAll(`text:not(.${name})`).attr("opacity", "0.05");
-  graph.selectAll(`circle:not(.region-${name})`).attr("opacity", "0.05");
+  graph.selectAll(`circle:not(.c-region-${name})`).attr("opacity", "0.05");
 }
 
 export function unhighlightScatter() {
