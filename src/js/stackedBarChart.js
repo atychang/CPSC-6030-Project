@@ -96,8 +96,8 @@ legend
 
 const line = d3
   .line()
-  .x((d) => xScale(+d.year) + margin)
-  .y((d) => yScale(d["Happiness Score"]) + margin);
+  .x((d) => xScale(+d.year) + margin.left + 25)
+  .y((d) => yScale(d["Happiness Score"]) + margin.top);
 
 let selectedCountry = null;
 
