@@ -15,9 +15,16 @@ for (const [_, info] of Object.entries(worldHappiness["2015"])) {
 import { initStackedBarChart, resetStackedBar } from "./stackedBarChart.js";
 
 const body = document.getElementById("scatterplot");
-const graphWidth = body.clientWidth - 150,
-  graphHeight = body.clientHeight - 150;
-const margin = 100;
+const containerWidth = body.clientWidth,
+  containerHeight = body.clientHeight,
+  margin = {
+    top: 75,
+    right: 210,
+    bottom: 75,
+    left: 75,
+  },
+  width = containerWidth - margin.left - margin.right,
+  height = containerHeight - margin.top - margin.bottom;
 
 const color = d3.schemeTableau10;
 const regions = [
@@ -34,24 +41,21 @@ const regions = [
   "Select all region",
 ];
 const svg = d3.select("#scatterplot").append("svg");
-svg.attr(
-  "viewBox",
-  `0 0 ${graphWidth + margin * 2} ${graphHeight + margin * 2}`
-);
+svg.attr("viewBox", `0 0 ${containerWidth} ${containerHeight}`);
 
 const graph = svg
   .append("g")
   .attr("position", "relative")
-  .attr("transform", `translate(${margin}, ${margin})`);
+  .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-const xScale = d3.scaleLinear().domain([0, 2]).range([0, graphWidth]);
+const xScale = d3.scaleLinear().domain([0, 2]).range([0, width]);
 const xAxis = d3.axisBottom(xScale).ticks(20);
 const xAxisGroup = graph
   .append("g")
-  .attr("transform", `translate(0, ${graphHeight})`)
+  .attr("transform", `translate(0, ${height})`)
   .call(xAxis);
 
-const yScale = d3.scaleLinear().domain([8, 0]).range([0, graphHeight]);
+const yScale = d3.scaleLinear().domain([8, 0]).range([0, height]);
 const yAxis = d3.axisLeft(yScale).ticks(8);
 const yAxisGroup = graph.append("g").call(yAxis);
 
@@ -59,8 +63,8 @@ const xLabel = graph
   .append("g")
   .append("text")
   .attr("class", "x-axis-label")
-  .attr("y", graphHeight + 50)
-  .attr("x", graphWidth / 2)
+  .attr("x", width / 2)
+  .attr("y", height + 50)
   .attr("font-size", "18px")
   .attr("font-weight", "600")
   .attr("text-anchor", "middle")
@@ -72,7 +76,7 @@ const yLabel = graph
   .append("text")
   .attr("class", "yAxisGroup")
   .attr("transform", "rotate(-90)")
-  .attr("x", -(graphHeight / 2))
+  .attr("x", -(height / 2))
   .attr("y", -50)
   .attr("font-size", "18px")
   .attr("font-weight", "600")
@@ -114,7 +118,7 @@ const legend = graph
   .append("g")
   .attr("class", "legend")
   .attr("position", "absolute")
-  .attr("transform", `translate(${graphWidth - margin}, ${0})`);
+  .attr("transform", `translate(${width}, ${0})`);
 
 legend
   .append("rect")
