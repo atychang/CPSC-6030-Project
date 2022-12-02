@@ -44,8 +44,8 @@ const graph = svg
   .attr("position", "relative")
   .attr("transform", `translate(${margin}, ${margin})`);
 
-const xScale = d3.scaleLinear().domain([0, 1.6]).range([0, graphWidth]);
-const xAxis = d3.axisBottom(xScale).ticks(16);
+const xScale = d3.scaleLinear().domain([0, 2]).range([0, graphWidth]);
+const xAxis = d3.axisBottom(xScale).ticks(20);
 const xAxisGroup = graph
   .append("g")
   .attr("transform", `translate(0, ${graphHeight})`)
