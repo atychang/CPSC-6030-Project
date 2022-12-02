@@ -82,6 +82,7 @@ const yLabel = graph
 
 graph
   .append("g")
+  .attr("class", "g-scatter")
   .selectAll("circle")
   .data(defaultData)
   .enter()
@@ -175,6 +176,7 @@ const dropDown = d3
   .append("div")
   .style("position", "absolute")
   .append("select")
+  .attr("id", "factor-select")
   .attr("name", "fields")
   .on("change", optionChanged);
 
@@ -193,37 +195,26 @@ options
   });
 
 function optionChanged(_) {
-  switch (this.selectedIndex) {
+  initScatter(
+    getFactorName(this.selectedIndex),
+    document.getElementById("yearRange").value
+  );
+}
+
+export function getFactorName(index) {
+  switch (index) {
     case 0:
-      initScatter(
-        "Economy (GDP per Capita)",
-        document.getElementById("yearRange").value
-      );
-      break;
+      return "Economy (GDP per Capita)";
     case 1:
-      initScatter(
-        "Family (Social Support)",
-        document.getElementById("yearRange").value
-      );
-      break;
+      return "Family (Social Support)";
     case 2:
-      initScatter(
-        "Health (Life Expectancy)",
-        document.getElementById("yearRange").value
-      );
-      break;
+      return "Health (Life Expectancy)";
     case 3:
-      initScatter("Freedom", document.getElementById("yearRange").value);
-      break;
+      return "Freedom";
     case 4:
-      initScatter(
-        "Trust (Government Corruption)",
-        document.getElementById("yearRange").value
-      );
-      break;
+      return "Trust (Government Corruption)";
     case 5:
-      initScatter("Generosity", document.getElementById("yearRange").value);
-      break;
+      return "Generosity";
   }
 }
 
@@ -278,13 +269,9 @@ function doubleclick(event, d) {
 }
 
 export function initScatter(index, year) {
-  xLabel
-    .attr("y", graphHeight + 50)
-    .attr("x", graphWidth / 2)
-    .text(index);
-  yLabel.attr("x", -(graphHeight / 2));
+  resetScatter();
 
-  legend.attr("transform", `translate(${graphWidth - margin}, ${0})`);
+  xLabel.text(index);
 
   const data = [];
   for (const [_, info] of Object.entries(worldHappiness[year])) {
@@ -292,16 +279,34 @@ export function initScatter(index, year) {
   }
 
   graph
-    .selectAll(".country-circle")
+    .select(".g-scatter")
+    .selectAll("circle")
     .data(data)
-    .transition()
-    .duration(750)
+    .enter()
+    .append("circle")
+    .attr("countryName", (d) => d["Country"])
+    .attr(
+      "class",
+      (d) =>
+        `country-${d["Country"].split(" ").join("-")} region-${d["Region"]
+          .split(" ")
+          .join("-")} country-circle`
+    )
     .attr("cx", (d) => xScale(d[index]))
-    .attr("cy", (d) => yScale(d["Happiness Score"]));
+    .attr("cy", (d) => yScale(d["Happiness Score"]))
+    .attr("fill", (d) => {
+      const idx = regions.indexOf(d["Region"]);
+      return color[idx];
+    })
+    .attr("r", "5")
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave)
+    .on("dblclick", doubleclick);
 }
 
 export function highlightCountryOnScatter(country) {
-  resetScatter();
+  unhighlightScatter();
   if (
     selectedCountry != null &&
     country === selectedCountry.attr("countryName")
@@ -315,7 +320,7 @@ export function highlightCountryOnScatter(country) {
 }
 
 export function highlightRegionOnScatter(region) {
-  resetScatter();
+  unhighlightScatter();
   if (region === "Select all region") {
     selectedRegion = null;
     return;
@@ -326,7 +331,11 @@ export function highlightRegionOnScatter(region) {
   graph.selectAll(`circle:not(.region-${name})`).attr("opacity", "0.05");
 }
 
-export function resetScatter() {
+export function unhighlightScatter() {
   graph.selectAll("circle").attr("opacity", "1");
   legend.selectAll("text").attr("opacity", "1");
+}
+
+function resetScatter() {
+  d3.selectAll(".g-scatter > *").remove();
 }
