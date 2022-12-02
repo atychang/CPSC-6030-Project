@@ -9,7 +9,8 @@ import { initStackedBarChart } from "./stackedBarChart.js";
 import {
   highlightCountryOnScatter,
   initScatter,
-  resetScatter,
+  unhighlightScatter,
+  getFactorName,
 } from "./scatter.js";
 
 let currentYear = "2015";
@@ -24,12 +25,15 @@ document
     d3.select("#earth")
       .selectAll("path")
       .attr("fill", (d) => fillLand(d.properties.name));
-    initScatter("Economy (GDP per Capita)", currentYear);
+    initScatter(
+      getFactorName(document.getElementById("factor-select").value - 1),
+      currentYear
+    );
     if (selectedCountry !== null) {
       const country = selectedCountry.attr("countryName");
       if (currentData[country] === undefined) {
         resetEarth();
-        resetScatter();
+        unhighlightScatter();
         selectedCountry = null;
       } else {
         updateCountryInfo(country);
