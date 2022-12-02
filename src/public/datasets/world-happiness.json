@@ -780,9 +780,9 @@
       "Trust (Government Corruption)": "0.02299",
       "Generosity": "0.2123"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "66",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.695",
       "Economy (GDP per Capita)": "1.20806",
@@ -843,7 +843,7 @@
     "Mauritius": {
       "Happiness Rank": "71",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.477",
       "Economy (GDP per Capita)": "1.00761",
       "Family (Social Support)": "0.98521",
@@ -927,7 +927,7 @@
     "Nigeria": {
       "Happiness Rank": "78",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.268",
       "Economy (GDP per Capita)": "0.65435",
       "Family (Social Support)": "0.90432",
@@ -1011,7 +1011,7 @@
     "Zambia": {
       "Happiness Rank": "85",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.129",
       "Economy (GDP per Capita)": "0.47038",
       "Family (Social Support)": "0.91612",
@@ -1083,7 +1083,7 @@
     "Somaliland region": {
       "Happiness Rank": "91",
       "Country": "Somaliland region",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.057",
       "Economy (GDP per Capita)": "0.18847",
       "Family (Social Support)": "0.95152",
@@ -1119,7 +1119,7 @@
     "Mozambique": {
       "Happiness Rank": "94",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.971",
       "Economy (GDP per Capita)": "0.08308",
       "Family (Social Support)": "1.02626",
@@ -1140,9 +1140,9 @@
       "Trust (Government Corruption)": "0.06413",
       "Generosity": "0.14272"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "96",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "4.949",
       "Economy (GDP per Capita)": "0.83223",
@@ -1155,7 +1155,7 @@
     "Lesotho": {
       "Happiness Rank": "97",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.898",
       "Economy (GDP per Capita)": "0.37545",
       "Family (Social Support)": "1.04103",
@@ -1203,7 +1203,7 @@
     "Swaziland": {
       "Happiness Rank": "101",
       "Country": "Swaziland",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.867",
       "Economy (GDP per Capita)": "0.71206",
       "Family (Social Support)": "1.07284",
@@ -1347,7 +1347,7 @@
     "South Africa": {
       "Happiness Rank": "113",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.642",
       "Economy (GDP per Capita)": "0.92049",
       "Family (Social Support)": "1.18468",
@@ -1359,7 +1359,7 @@
     "Ghana": {
       "Happiness Rank": "114",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.633",
       "Economy (GDP per Capita)": "0.54558",
       "Family (Social Support)": "0.67954",
@@ -1371,7 +1371,7 @@
     "Zimbabwe": {
       "Happiness Rank": "115",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.61",
       "Economy (GDP per Capita)": "0.271",
       "Family (Social Support)": "1.03276",
@@ -1383,7 +1383,7 @@
     "Liberia": {
       "Happiness Rank": "116",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.571",
       "Economy (GDP per Capita)": "0.0712",
       "Family (Social Support)": "0.78968",
@@ -1407,7 +1407,7 @@
     "Sudan": {
       "Happiness Rank": "118",
       "Country": "Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.55",
       "Economy (GDP per Capita)": "0.52107",
       "Family (Social Support)": "1.01404",
@@ -1428,10 +1428,10 @@
       "Trust (Government Corruption)": "0.17175",
       "Generosity": "0.46187"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "120",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.517",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "1.0012",
@@ -1455,7 +1455,7 @@
     "Ethiopia": {
       "Happiness Rank": "122",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.512",
       "Economy (GDP per Capita)": "0.19073",
       "Family (Social Support)": "0.60406",
@@ -1467,7 +1467,7 @@
     "Sierra Leone": {
       "Happiness Rank": "123",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.507",
       "Economy (GDP per Capita)": "0.33024",
       "Family (Social Support)": "0.95571",
@@ -1479,7 +1479,7 @@
     "Mauritania": {
       "Happiness Rank": "124",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.436",
       "Economy (GDP per Capita)": "0.45407",
       "Family (Social Support)": "0.86908",
@@ -1491,7 +1491,7 @@
     "Kenya": {
       "Happiness Rank": "125",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.419",
       "Economy (GDP per Capita)": "0.36471",
       "Family (Social Support)": "0.99876",
@@ -1503,7 +1503,7 @@
     "Djibouti": {
       "Happiness Rank": "126",
       "Country": "Djibouti",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.369",
       "Economy (GDP per Capita)": "0.44025",
       "Family (Social Support)": "0.59207",
@@ -1527,7 +1527,7 @@
     "Botswana": {
       "Happiness Rank": "128",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.332",
       "Economy (GDP per Capita)": "0.99355",
       "Family (Social Support)": "1.10464",
@@ -1563,7 +1563,7 @@
     "Malawi": {
       "Happiness Rank": "131",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.292",
       "Economy (GDP per Capita)": "0.01604",
       "Family (Social Support)": "0.41134",
@@ -1587,7 +1587,7 @@
     "Cameroon": {
       "Happiness Rank": "133",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.252",
       "Economy (GDP per Capita)": "0.4225",
       "Family (Social Support)": "0.88767",
@@ -1635,7 +1635,7 @@
     "Angola": {
       "Happiness Rank": "137",
       "Country": "Angola",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.033",
       "Economy (GDP per Capita)": "0.75778",
       "Family (Social Support)": "0.8604",
@@ -1647,7 +1647,7 @@
     "Mali": {
       "Happiness Rank": "138",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.995",
       "Economy (GDP per Capita)": "0.26074",
       "Family (Social Support)": "1.03526",
@@ -1659,7 +1659,7 @@
     "Congo": {
       "Happiness Rank": "139",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.989",
       "Economy (GDP per Capita)": "0.67866",
       "Family (Social Support)": "0.6629",
@@ -1671,7 +1671,7 @@
     "Comoros": {
       "Happiness Rank": "140",
       "Country": "Comoros",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.956",
       "Economy (GDP per Capita)": "0.23906",
       "Family (Social Support)": "0.79273",
@@ -1683,7 +1683,7 @@
     "Uganda": {
       "Happiness Rank": "141",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.931",
       "Economy (GDP per Capita)": "0.21102",
       "Family (Social Support)": "1.13299",
@@ -1695,7 +1695,7 @@
     "Senegal": {
       "Happiness Rank": "142",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.904",
       "Economy (GDP per Capita)": "0.36498",
       "Family (Social Support)": "0.97619",
@@ -1707,7 +1707,7 @@
     "Gabon": {
       "Happiness Rank": "143",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.896",
       "Economy (GDP per Capita)": "1.06024",
       "Family (Social Support)": "0.90528",
@@ -1719,7 +1719,7 @@
     "Niger": {
       "Happiness Rank": "144",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.845",
       "Economy (GDP per Capita)": "0.0694",
       "Family (Social Support)": "0.77265",
@@ -1743,7 +1743,7 @@
     "Tanzania": {
       "Happiness Rank": "146",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.781",
       "Economy (GDP per Capita)": "0.2852",
       "Family (Social Support)": "1.00268",
@@ -1755,7 +1755,7 @@
     "Madagascar": {
       "Happiness Rank": "147",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.681",
       "Economy (GDP per Capita)": "0.20824",
       "Family (Social Support)": "0.66801",
@@ -1764,10 +1764,10 @@
       "Trust (Government Corruption)": "0.08124",
       "Generosity": "0.21333"
     },
-    "Central African Rep.": {
+    "Central African Republican": {
       "Happiness Rank": "148",
-      "Country": "Central African Rep.",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Central African Republican",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.678",
       "Economy (GDP per Capita)": "0.0785",
       "Family (Social Support)": "0",
@@ -1779,7 +1779,7 @@
     "Chad": {
       "Happiness Rank": "149",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.667",
       "Economy (GDP per Capita)": "0.34193",
       "Family (Social Support)": "0.76062",
@@ -1791,7 +1791,7 @@
     "Guinea": {
       "Happiness Rank": "150",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.656",
       "Economy (GDP per Capita)": "0.17417",
       "Family (Social Support)": "0.46475",
@@ -1800,10 +1800,10 @@
       "Trust (Government Corruption)": "0.12139",
       "Generosity": "0.28657"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "151",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.655",
       "Economy (GDP per Capita)": "0.46534",
       "Family (Social Support)": "0.77115",
@@ -1815,7 +1815,7 @@
     "Burkina Faso": {
       "Happiness Rank": "152",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.587",
       "Economy (GDP per Capita)": "0.25812",
       "Family (Social Support)": "0.85188",
@@ -1839,7 +1839,7 @@
     "Rwanda": {
       "Happiness Rank": "154",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.465",
       "Economy (GDP per Capita)": "0.22208",
       "Family (Social Support)": "0.7737",
@@ -1851,7 +1851,7 @@
     "Benin": {
       "Happiness Rank": "155",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.34",
       "Economy (GDP per Capita)": "0.28665",
       "Family (Social Support)": "0.35386",
@@ -1875,7 +1875,7 @@
     "Burundi": {
       "Happiness Rank": "157",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.905",
       "Economy (GDP per Capita)": "0.0153",
       "Family (Social Support)": "0.41587",
@@ -1887,7 +1887,7 @@
     "Togo": {
       "Happiness Rank": "158",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.839",
       "Economy (GDP per Capita)": "0.20868",
       "Family (Social Support)": "0.13995",
@@ -2630,9 +2630,9 @@
       "Trust (Government Corruption)": "0.17457",
       "Generosity": "0.13942"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "62",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.771",
       "Economy (GDP per Capita)": "1.31141",
@@ -2681,7 +2681,7 @@
     "Mauritius": {
       "Happiness Rank": "66",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.648",
       "Economy (GDP per Capita)": "1.14372",
       "Family (Social Support)": "0.75695",
@@ -2801,7 +2801,7 @@
     "Somalia": {
       "Happiness Rank": "76",
       "Country": "Somalia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.44",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.33613",
@@ -2930,9 +2930,9 @@
       "Trust (Government Corruption)": "0.04339",
       "Generosity": "0.20737"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "87",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.163",
       "Economy (GDP per Capita)": "0.93383",
@@ -3053,7 +3053,7 @@
     "Somaliland Region": {
       "Happiness Rank": "97",
       "Country": "Somaliland Region",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.057",
       "Economy (GDP per Capita)": "0.25558",
       "Family (Social Support)": "0.75862",
@@ -3125,7 +3125,7 @@
     "Nigeria": {
       "Happiness Rank": "103",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.875",
       "Economy (GDP per Capita)": "0.75216",
       "Family (Social Support)": "0.64498",
@@ -3161,7 +3161,7 @@
     "Zambia": {
       "Happiness Rank": "106",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.795",
       "Economy (GDP per Capita)": "0.61202",
       "Family (Social Support)": "0.6376",
@@ -3221,7 +3221,7 @@
     "Sierra Leone": {
       "Happiness Rank": "111",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.635",
       "Economy (GDP per Capita)": "0.36485",
       "Family (Social Support)": "0.628",
@@ -3245,7 +3245,7 @@
     "Namibia": {
       "Happiness Rank": "113",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.574",
       "Economy (GDP per Capita)": "0.93287",
       "Family (Social Support)": "0.70362",
@@ -3257,7 +3257,7 @@
     "Cameroon": {
       "Happiness Rank": "114",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.513",
       "Economy (GDP per Capita)": "0.52497",
       "Family (Social Support)": "0.62542",
@@ -3269,7 +3269,7 @@
     "Ethiopia": {
       "Happiness Rank": "115",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.508",
       "Economy (GDP per Capita)": "0.29283",
       "Family (Social Support)": "0.37932",
@@ -3281,7 +3281,7 @@
     "South Africa": {
       "Happiness Rank": "116",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.459",
       "Economy (GDP per Capita)": "1.02416",
       "Family (Social Support)": "0.96053",
@@ -3353,7 +3353,7 @@
     "Kenya": {
       "Happiness Rank": "122",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.356",
       "Economy (GDP per Capita)": "0.52267",
       "Family (Social Support)": "0.7624",
@@ -3377,7 +3377,7 @@
     "Ghana": {
       "Happiness Rank": "124",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.276",
       "Economy (GDP per Capita)": "0.63107",
       "Family (Social Support)": "0.49353",
@@ -3386,10 +3386,10 @@
       "Trust (Government Corruption)": "0.0326",
       "Generosity": "0.21203"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "125",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.272",
       "Economy (GDP per Capita)": "0.05661",
       "Family (Social Support)": "0.80676",
@@ -3413,7 +3413,7 @@
     "Congo": {
       "Happiness Rank": "127",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.236",
       "Economy (GDP per Capita)": "0.77109",
       "Family (Social Support)": "0.47799",
@@ -3425,7 +3425,7 @@
     "Senegal": {
       "Happiness Rank": "128",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.219",
       "Economy (GDP per Capita)": "0.44314",
       "Family (Social Support)": "0.77416",
@@ -3449,7 +3449,7 @@
     "Mauritania": {
       "Happiness Rank": "130",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.201",
       "Economy (GDP per Capita)": "0.61391",
       "Family (Social Support)": "0.84142",
@@ -3461,7 +3461,7 @@
     "Zimbabwe": {
       "Happiness Rank": "131",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.193",
       "Economy (GDP per Capita)": "0.35041",
       "Family (Social Support)": "0.71478",
@@ -3473,7 +3473,7 @@
     "Malawi": {
       "Happiness Rank": "132",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.156",
       "Economy (GDP per Capita)": "0.08709",
       "Family (Social Support)": "0.147",
@@ -3485,7 +3485,7 @@
     "Sudan": {
       "Happiness Rank": "133",
       "Country": "Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.139",
       "Economy (GDP per Capita)": "0.63069",
       "Family (Social Support)": "0.81928",
@@ -3497,7 +3497,7 @@
     "Gabon": {
       "Happiness Rank": "134",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.121",
       "Economy (GDP per Capita)": "1.15851",
       "Family (Social Support)": "0.72368",
@@ -3509,7 +3509,7 @@
     "Mali": {
       "Happiness Rank": "135",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.073",
       "Economy (GDP per Capita)": "0.31292",
       "Family (Social Support)": "0.86333",
@@ -3533,7 +3533,7 @@
     "Botswana": {
       "Happiness Rank": "137",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.974",
       "Economy (GDP per Capita)": "1.09426",
       "Family (Social Support)": "0.89186",
@@ -3545,7 +3545,7 @@
     "Comoros": {
       "Happiness Rank": "138",
       "Country": "Comoros",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.956",
       "Economy (GDP per Capita)": "0.27509",
       "Family (Social Support)": "0.60323",
@@ -3554,10 +3554,10 @@
       "Trust (Government Corruption)": "0.18437",
       "Generosity": "0.1827"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "139",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.916",
       "Economy (GDP per Capita)": "0.55507",
       "Family (Social Support)": "0.57576",
@@ -3581,7 +3581,7 @@
     "Angola": {
       "Happiness Rank": "141",
       "Country": "Angola",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.866",
       "Economy (GDP per Capita)": "0.84731",
       "Family (Social Support)": "0.66366",
@@ -3593,7 +3593,7 @@
     "Niger": {
       "Happiness Rank": "142",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.856",
       "Economy (GDP per Capita)": "0.1327",
       "Family (Social Support)": "0.6053",
@@ -3602,10 +3602,10 @@
       "Trust (Government Corruption)": "0.17176",
       "Generosity": "0.2097"
     },
-    "S. Sudan": {
+    "South Sudan": {
       "Happiness Rank": "143",
-      "Country": "S. Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Country": "South Sudan",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.832",
       "Economy (GDP per Capita)": "0.39394",
       "Family (Social Support)": "0.18519",
@@ -3617,7 +3617,7 @@
     "Chad": {
       "Happiness Rank": "144",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.763",
       "Economy (GDP per Capita)": "0.42214",
       "Family (Social Support)": "0.63178",
@@ -3629,7 +3629,7 @@
     "Burkina Faso": {
       "Happiness Rank": "145",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.739",
       "Economy (GDP per Capita)": "0.31995",
       "Family (Social Support)": "0.63054",
@@ -3641,7 +3641,7 @@
     "Uganda": {
       "Happiness Rank": "145",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.739",
       "Economy (GDP per Capita)": "0.34719",
       "Family (Social Support)": "0.90981",
@@ -3665,7 +3665,7 @@
     "Madagascar": {
       "Happiness Rank": "148",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.695",
       "Economy (GDP per Capita)": "0.G27954",
       "Family (Social Support)": "0.46115",
@@ -3677,7 +3677,7 @@
     "Tanzania": {
       "Happiness Rank": "149",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.666",
       "Economy (GDP per Capita)": "0.47155",
       "Family (Social Support)": "0.77623",
@@ -3689,7 +3689,7 @@
     "Liberia": {
       "Happiness Rank": "150",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.622",
       "Economy (GDP per Capita)": "0.10706",
       "Family (Social Support)": "0.50353",
@@ -3701,7 +3701,7 @@
     "Guinea": {
       "Happiness Rank": "151",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.607",
       "Economy (GDP per Capita)": "0.22415",
       "Family (Social Support)": "0.3109",
@@ -3713,7 +3713,7 @@
     "Rwanda": {
       "Happiness Rank": "152",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.515",
       "Economy (GDP per Capita)": "0.32846",
       "Family (Social Support)": "0.61586",
@@ -3725,7 +3725,7 @@
     "Benin": {
       "Happiness Rank": "153",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.484",
       "Economy (GDP per Capita)": "0.39499",
       "Family (Social Support)": "0.10419",
@@ -3749,7 +3749,7 @@
     "Togo": {
       "Happiness Rank": "155",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.303",
       "Economy (GDP per Capita)": "0.28123",
       "Family (Social Support)": "0",
@@ -3773,7 +3773,7 @@
     "Burundi": {
       "Happiness Rank": "157",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.905",
       "Economy (GDP per Capita)": "0.06831",
       "Family (Social Support)": "0.23442",
@@ -4504,9 +4504,9 @@
       "Trust (Government Corruption)": "0.119282886",
       "Generosity": "0.201964423"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "61",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.809999943",
       "Economy (GDP per Capita)": "1.346911311",
@@ -4543,7 +4543,7 @@
     "Mauritius": {
       "Happiness Rank": "64",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.629000187",
       "Economy (GDP per Capita)": "1.189395547",
       "Family (Social Support)": "1.20956099",
@@ -4852,9 +4852,9 @@
       "Trust (Government Corruption)": "0.015869452",
       "Generosity": "0.095102713"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "90",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.18200016",
       "Economy (GDP per Capita)": "0.982409418",
@@ -4891,7 +4891,7 @@
     "Somalia": {
       "Happiness Rank": "93",
       "Country": "Somalia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.151000023",
       "Economy (GDP per Capita)": "0.022643184",
       "Family (Social Support)": "0.721151352",
@@ -4915,7 +4915,7 @@
     "Nigeria": {
       "Happiness Rank": "95",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.073999882",
       "Economy (GDP per Capita)": "0.783756256",
       "Family (Social Support)": "1.215770483",
@@ -4987,7 +4987,7 @@
     "South Africa": {
       "Happiness Rank": "101",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.828999996",
       "Economy (GDP per Capita)": "1.054698706",
       "Family (Social Support)": "1.384788632",
@@ -5047,7 +5047,7 @@
     "Sierra Leone": {
       "Happiness Rank": "106",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.709000111",
       "Economy (GDP per Capita)": "0.368420929",
       "Family (Social Support)": "0.984136045",
@@ -5059,7 +5059,7 @@
     "Cameroon": {
       "Happiness Rank": "107",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.695000172",
       "Economy (GDP per Capita)": "0.564305365",
       "Family (Social Support)": "0.946018219",
@@ -5107,7 +5107,7 @@
     "Namibia": {
       "Happiness Rank": "111",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.573999882",
       "Economy (GDP per Capita)": "0.964434326",
       "Family (Social Support)": "1.098470807",
@@ -5119,7 +5119,7 @@
     "Kenya": {
       "Happiness Rank": "112",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.552999973",
       "Economy (GDP per Capita)": "0.560479462",
       "Family (Social Support)": "1.067950726",
@@ -5131,7 +5131,7 @@
     "Mozambique": {
       "Happiness Rank": "113",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.550000191",
       "Economy (GDP per Capita)": "0.23430565",
       "Family (Social Support)": "0.870701015",
@@ -5155,7 +5155,7 @@
     "Senegal": {
       "Happiness Rank": "115",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.534999847",
       "Economy (GDP per Capita)": "0.479309022",
       "Family (Social Support)": "1.179691911",
@@ -5167,7 +5167,7 @@
     "Zambia": {
       "Happiness Rank": "116",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.513999939",
       "Economy (GDP per Capita)": "0.636406779",
       "Family (Social Support)": "1.003187299",
@@ -5191,7 +5191,7 @@
     "Gabon": {
       "Happiness Rank": "118",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.465000153",
       "Economy (GDP per Capita)": "1.198210239",
       "Family (Social Support)": "1.155620217",
@@ -5203,7 +5203,7 @@
     "Ethiopia": {
       "Happiness Rank": "119",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.460000038",
       "Economy (GDP per Capita)": "0.339233845",
       "Family (Social Support)": "0.864669204",
@@ -5251,7 +5251,7 @@
     "Mauritania": {
       "Happiness Rank": "123",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.291999817",
       "Economy (GDP per Capita)": "0.648457289",
       "Family (Social Support)": "1.27203083",
@@ -5263,7 +5263,7 @@
     "Congo": {
       "Happiness Rank": "124",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.290999889",
       "Economy (GDP per Capita)": "0.808964252",
       "Family (Social Support)": "0.832044363",
@@ -5284,10 +5284,10 @@
       "Trust (Government Corruption)": "0.251666635",
       "Generosity": "0.054008815"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "126",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.28000021",
       "Economy (GDP per Capita)": "0.092102349",
       "Family (Social Support)": "1.229023457",
@@ -5299,7 +5299,7 @@
     "Mali": {
       "Happiness Rank": "127",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.190000057",
       "Economy (GDP per Capita)": "0.476180494",
       "Family (Social Support)": "1.281473398",
@@ -5308,10 +5308,10 @@
       "Trust (Government Corruption)": "0.104970247",
       "Generosity": "0.183354199"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "128",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.179999828",
       "Economy (GDP per Capita)": "0.603048921",
       "Family (Social Support)": "0.90478003",
@@ -5335,7 +5335,7 @@
     "Sudan": {
       "Happiness Rank": "130",
       "Country": "Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.138999939",
       "Economy (GDP per Capita)": "0.659516692",
       "Family (Social Support)": "1.21400857",
@@ -5347,7 +5347,7 @@
     "Ghana": {
       "Happiness Rank": "131",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.119999886",
       "Economy (GDP per Capita)": "0.667224824",
       "Family (Social Support)": "0.873664737",
@@ -5371,7 +5371,7 @@
     "Uganda": {
       "Happiness Rank": "133",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.080999851",
       "Economy (GDP per Capita)": "0.381430715",
       "Family (Social Support)": "1.129827738",
@@ -5383,7 +5383,7 @@
     "Burkina Faso": {
       "Happiness Rank": "134",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.032000065",
       "Economy (GDP per Capita)": "0.350227714",
       "Family (Social Support)": "1.043280005",
@@ -5395,7 +5395,7 @@
     "Niger": {
       "Happiness Rank": "135",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.027999878",
       "Economy (GDP per Capita)": "0.161925331",
       "Family (Social Support)": "0.993025005",
@@ -5407,7 +5407,7 @@
     "Malawi": {
       "Happiness Rank": "136",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.970000029",
       "Economy (GDP per Capita)": "0.233442038",
       "Family (Social Support)": "0.512568831",
@@ -5419,7 +5419,7 @@
     "Chad": {
       "Happiness Rank": "137",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.936000109",
       "Economy (GDP per Capita)": "0.438012987",
       "Family (Social Support)": "0.953855872",
@@ -5431,7 +5431,7 @@
     "Zimbabwe": {
       "Happiness Rank": "138",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.875",
       "Economy (GDP per Capita)": "0.375846535",
       "Family (Social Support)": "1.083095908",
@@ -5443,7 +5443,7 @@
     "Lesotho": {
       "Happiness Rank": "139",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.808000088",
       "Economy (GDP per Capita)": "0.521021247",
       "Family (Social Support)": "1.190095186",
@@ -5455,7 +5455,7 @@
     "Angola": {
       "Happiness Rank": "140",
       "Country": "Angola",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.795000076",
       "Economy (GDP per Capita)": "0.85842818",
       "Family (Social Support)": "1.10441196",
@@ -5479,7 +5479,7 @@
     "Botswana": {
       "Happiness Rank": "142",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.766000032",
       "Economy (GDP per Capita)": "1.122094154",
       "Family (Social Support)": "1.221554995",
@@ -5491,7 +5491,7 @@
     "Benin": {
       "Happiness Rank": "143",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.657000065",
       "Economy (GDP per Capita)": "0.431085408",
       "Family (Social Support)": "0.435299844",
@@ -5503,7 +5503,7 @@
     "Madagascar": {
       "Happiness Rank": "144",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.644000053",
       "Economy (GDP per Capita)": "0.305808693",
       "Family (Social Support)": "0.913020372",
@@ -5536,10 +5536,10 @@
       "Trust (Government Corruption)": "0.056767423",
       "Generosity": "0.104125209"
     },
-    "S. Sudan": {
+    "South Sudan": {
       "Happiness Rank": "147",
-      "Country": "S. Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Country": "South Sudan",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.59100008",
       "Economy (GDP per Capita)": "0.397248626",
       "Family (Social Support)": "0.601323128",
@@ -5551,7 +5551,7 @@
     "Liberia": {
       "Happiness Rank": "148",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.532999992",
       "Economy (GDP per Capita)": "0.119041793",
       "Family (Social Support)": "0.872117937",
@@ -5563,7 +5563,7 @@
     "Guinea": {
       "Happiness Rank": "149",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.506999969",
       "Economy (GDP per Capita)": "0.24454993",
       "Family (Social Support)": "0.791244686",
@@ -5575,7 +5575,7 @@
     "Togo": {
       "Happiness Rank": "150",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.494999886",
       "Economy (GDP per Capita)": "0.305444717",
       "Family (Social Support)": "0.43188253",
@@ -5587,7 +5587,7 @@
     "Rwanda": {
       "Happiness Rank": "151",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.470999956",
       "Economy (GDP per Capita)": "0.368745893",
       "Family (Social Support)": "0.945707023",
@@ -5611,7 +5611,7 @@
     "Tanzania": {
       "Happiness Rank": "153",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.348999977",
       "Economy (GDP per Capita)": "0.511135876",
       "Family (Social Support)": "1.041989803",
@@ -5623,7 +5623,7 @@
     "Burundi": {
       "Happiness Rank": "154",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.904999971",
       "Economy (GDP per Capita)": "0.091622569",
       "Family (Social Support)": "0.629793584",
@@ -5632,10 +5632,10 @@
       "Trust (Government Corruption)": "0.084147945",
       "Generosity": "0.204435185"
     },
-    "Central African Rep.": {
+    "Central African Republican": {
       "Happiness Rank": "155",
-      "Country": "Central African Rep.",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Central African Republican",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.693000078",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0",
@@ -6285,7 +6285,7 @@
     "Mauritius": {
       "Happiness Rank": "55",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.891",
       "Economy (GDP per Capita)": "1.09",
       "Family (Social Support)": "1.387",
@@ -6318,9 +6318,9 @@
       "Trust (Government Corruption)": "0.051",
       "Generosity": "0.175"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "58",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.835",
       "Economy (GDP per Capita)": "1.229",
@@ -6717,7 +6717,7 @@
     "Nigeria": {
       "Happiness Rank": "91",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.155",
       "Economy (GDP per Capita)": "0.689",
       "Family (Social Support)": "1.172",
@@ -6738,9 +6738,9 @@
       "Trust (Government Corruption)": "0.035",
       "Generosity": "0.281"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "93",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.129",
       "Economy (GDP per Capita)": "0.915",
@@ -6801,7 +6801,7 @@
     "Somalia": {
       "Happiness Rank": "98",
       "Country": "Somalia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.982",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.712",
@@ -6813,7 +6813,7 @@
     "Cameroon": {
       "Happiness Rank": "99",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.975",
       "Economy (GDP per Capita)": "0.535",
       "Family (Social Support)": "0.891",
@@ -6861,7 +6861,7 @@
     "Gabon": {
       "Happiness Rank": "103",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.758",
       "Economy (GDP per Capita)": "1.036",
       "Family (Social Support)": "1.164",
@@ -6885,7 +6885,7 @@
     "South Africa": {
       "Happiness Rank": "105",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.724",
       "Economy (GDP per Capita)": "0.94",
       "Family (Social Support)": "1.41",
@@ -6906,10 +6906,10 @@
       "Trust (Government Corruption)": "0.129",
       "Generosity": "0.282"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "107",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.671",
       "Economy (GDP per Capita)": "0.541",
       "Family (Social Support)": "0.872",
@@ -6921,7 +6921,7 @@
     "Ghana": {
       "Happiness Rank": "108",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.657",
       "Economy (GDP per Capita)": "0.592",
       "Family (Social Support)": "0.896",
@@ -6933,7 +6933,7 @@
     "Senegal": {
       "Happiness Rank": "109",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.631",
       "Economy (GDP per Capita)": "0.429",
       "Family (Social Support)": "1.117",
@@ -6981,7 +6981,7 @@
     "Sierra Leone": {
       "Happiness Rank": "113",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.571",
       "Economy (GDP per Capita)": "0.256",
       "Family (Social Support)": "0.813",
@@ -6993,7 +6993,7 @@
     "Congo": {
       "Happiness Rank": "114",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.559",
       "Economy (GDP per Capita)": "0.682",
       "Family (Social Support)": "0.811",
@@ -7041,7 +7041,7 @@
     "Mali": {
       "Happiness Rank": "118",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.447",
       "Economy (GDP per Capita)": "0.37",
       "Family (Social Support)": "1.233",
@@ -7053,7 +7053,7 @@
     "Namibia": {
       "Happiness Rank": "119",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.441",
       "Economy (GDP per Capita)": "0.874",
       "Family (Social Support)": "1.281",
@@ -7077,7 +7077,7 @@
     "Burkina Faso": {
       "Happiness Rank": "121",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.424",
       "Economy (GDP per Capita)": "0.314",
       "Family (Social Support)": "1.097",
@@ -7101,7 +7101,7 @@
     "Mozambique": {
       "Happiness Rank": "123",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.417",
       "Economy (GDP per Capita)": "0.198",
       "Family (Social Support)": "0.902",
@@ -7113,7 +7113,7 @@
     "Kenya": {
       "Happiness Rank": "124",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.41",
       "Economy (GDP per Capita)": "0.493",
       "Family (Social Support)": "1.048",
@@ -7125,7 +7125,7 @@
     "Zambia": {
       "Happiness Rank": "125",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.377",
       "Economy (GDP per Capita)": "0.562",
       "Family (Social Support)": "1.047",
@@ -7137,7 +7137,7 @@
     "Mauritania": {
       "Happiness Rank": "126",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.356",
       "Economy (GDP per Capita)": "0.557",
       "Family (Social Support)": "1.245",
@@ -7149,7 +7149,7 @@
     "Ethiopia": {
       "Happiness Rank": "127",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.35",
       "Economy (GDP per Capita)": "0.308",
       "Family (Social Support)": "0.95",
@@ -7197,7 +7197,7 @@
     "Chad": {
       "Happiness Rank": "131",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.301",
       "Economy (GDP per Capita)": "0.358",
       "Family (Social Support)": "0.907",
@@ -7206,10 +7206,10 @@
       "Trust (Government Corruption)": "0.06",
       "Generosity": "0.181"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "132",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.245",
       "Economy (GDP per Capita)": "0.069",
       "Family (Social Support)": "1.136",
@@ -7233,7 +7233,7 @@
     "Niger": {
       "Happiness Rank": "134",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.166",
       "Economy (GDP per Capita)": "0.131",
       "Family (Social Support)": "0.867",
@@ -7245,7 +7245,7 @@
     "Uganda": {
       "Happiness Rank": "135",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.161",
       "Economy (GDP per Capita)": "0.322",
       "Family (Social Support)": "1.09",
@@ -7257,7 +7257,7 @@
     "Benin": {
       "Happiness Rank": "136",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.141",
       "Economy (GDP per Capita)": "0.378",
       "Family (Social Support)": "0.372",
@@ -7269,7 +7269,7 @@
     "Sudan": {
       "Happiness Rank": "137",
       "Country": "Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.139",
       "Economy (GDP per Capita)": "0.605",
       "Family (Social Support)": "1.24",
@@ -7293,7 +7293,7 @@
     "Togo": {
       "Happiness Rank": "139",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.999",
       "Economy (GDP per Capita)": "0.259",
       "Family (Social Support)": "0.474",
@@ -7305,7 +7305,7 @@
     "Guinea": {
       "Happiness Rank": "140",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.964",
       "Economy (GDP per Capita)": "0.344",
       "Family (Social Support)": "0.792",
@@ -7317,7 +7317,7 @@
     "Lesotho": {
       "Happiness Rank": "141",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.808",
       "Economy (GDP per Capita)": "0.472",
       "Family (Social Support)": "1.215",
@@ -7329,7 +7329,7 @@
     "Angola": {
       "Happiness Rank": "142",
       "Country": "Angola",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.795",
       "Economy (GDP per Capita)": "0.73",
       "Family (Social Support)": "1.125",
@@ -7341,7 +7341,7 @@
     "Madagascar": {
       "Happiness Rank": "143",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.774",
       "Economy (GDP per Capita)": "0.262",
       "Family (Social Support)": "0.908",
@@ -7353,7 +7353,7 @@
     "Zimbabwe": {
       "Happiness Rank": "144",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.692",
       "Economy (GDP per Capita)": "0.357",
       "Family (Social Support)": "1.094",
@@ -7377,7 +7377,7 @@
     "Botswana": {
       "Happiness Rank": "146",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.59",
       "Economy (GDP per Capita)": "1.017",
       "Family (Social Support)": "1.174",
@@ -7389,7 +7389,7 @@
     "Malawi": {
       "Happiness Rank": "147",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.587",
       "Economy (GDP per Capita)": "0.186",
       "Family (Social Support)": "0.541",
@@ -7413,7 +7413,7 @@
     "Liberia": {
       "Happiness Rank": "149",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.495",
       "Economy (GDP per Capita)": "0.076",
       "Family (Social Support)": "0.858",
@@ -7437,7 +7437,7 @@
     "Rwanda": {
       "Happiness Rank": "151",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.408",
       "Economy (GDP per Capita)": "0.332",
       "Family (Social Support)": "0.896",
@@ -7461,7 +7461,7 @@
     "Tanzania": {
       "Happiness Rank": "153",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.303",
       "Economy (GDP per Capita)": "0.455",
       "Family (Social Support)": "0.991",
@@ -7470,10 +7470,10 @@
       "Trust (Government Corruption)": "0.097",
       "Generosity": "0.27"
     },
-    "S. Sudan": {
+    "South Sudan": {
       "Happiness Rank": "154",
-      "Country": "S. Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Country": "South Sudan",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.254",
       "Economy (GDP per Capita)": "0.337",
       "Family (Social Support)": "0.608",
@@ -7482,10 +7482,10 @@
       "Trust (Government Corruption)": "0.106",
       "Generosity": "0.224"
     },
-    "Central African Rep.": {
+    "Central African Republican": {
       "Happiness Rank": "155",
-      "Country": "Central African Rep.",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Central African Republican",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.083",
       "Economy (GDP per Capita)": "0.024",
       "Family (Social Support)": "0",
@@ -7497,7 +7497,7 @@
     "Burundi": {
       "Happiness Rank": "156",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.905",
       "Economy (GDP per Capita)": "0.091",
       "Family (Social Support)": "0.627",
@@ -8183,7 +8183,7 @@
     "Mauritius": {
       "Happiness Rank": "57",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.888",
       "Economy (GDP per Capita)": "1.12",
       "Family (Social Support)": "1.402",
@@ -8264,9 +8264,9 @@
       "Trust (Government Corruption)": "0.08",
       "Generosity": "0.184"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "64",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.718",
       "Economy (GDP per Capita)": "1.263",
@@ -8432,9 +8432,9 @@
       "Trust (Government Corruption)": "0.101",
       "Generosity": "0.113"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "78",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.386",
       "Economy (GDP per Capita)": "0.945",
@@ -8519,7 +8519,7 @@
     "Nigeria": {
       "Happiness Rank": "85",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.265",
       "Economy (GDP per Capita)": "0.696",
       "Family (Social Support)": "1.111",
@@ -8651,7 +8651,7 @@
     "Cameroon": {
       "Happiness Rank": "96",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.044",
       "Economy (GDP per Capita)": "0.549",
       "Family (Social Support)": "0.91",
@@ -8675,7 +8675,7 @@
     "Ghana": {
       "Happiness Rank": "98",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.996",
       "Economy (GDP per Capita)": "0.611",
       "Family (Social Support)": "0.868",
@@ -8684,10 +8684,10 @@
       "Trust (Government Corruption)": "0.04",
       "Generosity": "0.245"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "99",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.944",
       "Economy (GDP per Capita)": "0.569",
       "Family (Social Support)": "0.808",
@@ -8723,7 +8723,7 @@
     "Benin": {
       "Happiness Rank": "102",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.883",
       "Economy (GDP per Capita)": "0.393",
       "Family (Social Support)": "0.437",
@@ -8735,7 +8735,7 @@
     "Congo": {
       "Happiness Rank": "103",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.812",
       "Economy (GDP per Capita)": "0.673",
       "Family (Social Support)": "0.799",
@@ -8747,7 +8747,7 @@
     "Gabon": {
       "Happiness Rank": "104",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.799",
       "Economy (GDP per Capita)": "1.057",
       "Family (Social Support)": "1.183",
@@ -8771,7 +8771,7 @@
     "South Africa": {
       "Happiness Rank": "106",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.722",
       "Economy (GDP per Capita)": "0.96",
       "Family (Social Support)": "1.351",
@@ -8831,7 +8831,7 @@
     "Senegal": {
       "Happiness Rank": "111",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.681",
       "Economy (GDP per Capita)": "0.45",
       "Family (Social Support)": "1.134",
@@ -8843,7 +8843,7 @@
     "Somalia": {
       "Happiness Rank": "112",
       "Country": "Somalia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.668",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.698",
@@ -8855,7 +8855,7 @@
     "Namibia": {
       "Happiness Rank": "113",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.639",
       "Economy (GDP per Capita)": "0.879",
       "Family (Social Support)": "1.313",
@@ -8867,7 +8867,7 @@
     "Niger": {
       "Happiness Rank": "114",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.628",
       "Economy (GDP per Capita)": "0.138",
       "Family (Social Support)": "0.774",
@@ -8879,7 +8879,7 @@
     "Burkina Faso": {
       "Happiness Rank": "115",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.587",
       "Economy (GDP per Capita)": "0.331",
       "Family (Social Support)": "1.056",
@@ -8915,7 +8915,7 @@
     "Guinea": {
       "Happiness Rank": "118",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.534",
       "Economy (GDP per Capita)": "0.38",
       "Family (Social Support)": "0.829",
@@ -8939,7 +8939,7 @@
     "Gambia": {
       "Happiness Rank": "120",
       "Country": "Gambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.516",
       "Economy (GDP per Capita)": "0.308",
       "Family (Social Support)": "0.939",
@@ -8951,7 +8951,7 @@
     "Kenya": {
       "Happiness Rank": "121",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.509",
       "Economy (GDP per Capita)": "0.512",
       "Family (Social Support)": "0.983",
@@ -8963,7 +8963,7 @@
     "Mauritania": {
       "Happiness Rank": "122",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.49",
       "Economy (GDP per Capita)": "0.57",
       "Family (Social Support)": "1.167",
@@ -8975,7 +8975,7 @@
     "Mozambique": {
       "Happiness Rank": "123",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.466",
       "Economy (GDP per Capita)": "0.204",
       "Family (Social Support)": "0.986",
@@ -9020,10 +9020,10 @@
       "Trust (Government Corruption)": "0.089",
       "Generosity": "0.148"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "127",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.418",
       "Economy (GDP per Capita)": "0.094",
       "Family (Social Support)": "1.125",
@@ -9035,7 +9035,7 @@
     "Mali": {
       "Happiness Rank": "128",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.39",
       "Economy (GDP per Capita)": "0.385",
       "Family (Social Support)": "1.105",
@@ -9047,7 +9047,7 @@
     "Sierra Leone": {
       "Happiness Rank": "129",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.374",
       "Economy (GDP per Capita)": "0.268",
       "Family (Social Support)": "0.841",
@@ -9083,7 +9083,7 @@
     "Chad": {
       "Happiness Rank": "132",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.35",
       "Economy (GDP per Capita)": "0.35",
       "Family (Social Support)": "0.766",
@@ -9107,7 +9107,7 @@
     "Ethiopia": {
       "Happiness Rank": "134",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.286",
       "Economy (GDP per Capita)": "0.336",
       "Family (Social Support)": "1.033",
@@ -9119,7 +9119,7 @@
     "Swaziland": {
       "Happiness Rank": "135",
       "Country": "Swaziland",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.212",
       "Economy (GDP per Capita)": "0.811",
       "Family (Social Support)": "1.149",
@@ -9131,7 +9131,7 @@
     "Uganda": {
       "Happiness Rank": "136",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.189",
       "Economy (GDP per Capita)": "0.332",
       "Family (Social Support)": "1.069",
@@ -9155,7 +9155,7 @@
     "Zambia": {
       "Happiness Rank": "138",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.107",
       "Economy (GDP per Capita)": "0.578",
       "Family (Social Support)": "1.058",
@@ -9167,7 +9167,7 @@
     "Togo": {
       "Happiness Rank": "139",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.085",
       "Economy (GDP per Capita)": "0.275",
       "Family (Social Support)": "0.572",
@@ -9191,7 +9191,7 @@
     "Liberia": {
       "Happiness Rank": "141",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.975",
       "Economy (GDP per Capita)": "0.073",
       "Family (Social Support)": "0.922",
@@ -9203,7 +9203,7 @@
     "Comoros": {
       "Happiness Rank": "142",
       "Country": "Comoros",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.973",
       "Economy (GDP per Capita)": "0.274",
       "Family (Social Support)": "0.757",
@@ -9215,7 +9215,7 @@
     "Madagascar": {
       "Happiness Rank": "143",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.933",
       "Economy (GDP per Capita)": "0.274",
       "Family (Social Support)": "0.916",
@@ -9227,7 +9227,7 @@
     "Lesotho": {
       "Happiness Rank": "144",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.802",
       "Economy (GDP per Capita)": "0.489",
       "Family (Social Support)": "1.169",
@@ -9239,7 +9239,7 @@
     "Burundi": {
       "Happiness Rank": "145",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.775",
       "Economy (GDP per Capita)": "0.046",
       "Family (Social Support)": "0.447",
@@ -9251,7 +9251,7 @@
     "Zimbabwe": {
       "Happiness Rank": "146",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.663",
       "Economy (GDP per Capita)": "0.366",
       "Family (Social Support)": "1.114",
@@ -9275,7 +9275,7 @@
     "Botswana": {
       "Happiness Rank": "148",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.488",
       "Economy (GDP per Capita)": "1.041",
       "Family (Social Support)": "1.145",
@@ -9299,7 +9299,7 @@
     "Malawi": {
       "Happiness Rank": "150",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.41",
       "Economy (GDP per Capita)": "0.191",
       "Family (Social Support)": "0.56",
@@ -9323,7 +9323,7 @@
     "Rwanda": {
       "Happiness Rank": "152",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.334",
       "Economy (GDP per Capita)": "0.359",
       "Family (Social Support)": "0.711",
@@ -9335,7 +9335,7 @@
     "Tanzania": {
       "Happiness Rank": "153",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.231",
       "Economy (GDP per Capita)": "0.476",
       "Family (Social Support)": "0.885",
@@ -9356,10 +9356,10 @@
       "Trust (Government Corruption)": "0.025",
       "Generosity": "0.158"
     },
-    "Central African Rep.": {
+    "Central African Republican": {
       "Happiness Rank": "155",
-      "Country": "Central African Rep.",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Central African Republican",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.083",
       "Economy (GDP per Capita)": "0.026",
       "Family (Social Support)": "0",
@@ -9368,10 +9368,10 @@
       "Trust (Government Corruption)": "0.035",
       "Generosity": "0.235"
     },
-    "S. Sudan": {
+    "South Sudan": {
       "Happiness Rank": "156",
-      "Country": "S. Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Country": "South Sudan",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.853",
       "Economy (GDP per Capita)": "0.306",
       "Family (Social Support)": "0.575",
@@ -9961,7 +9961,7 @@
     "Mauritius": {
       "Happiness Rank": "49",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "6.101299763",
       "Economy (GDP per Capita)": "1.07366395",
       "Family (Social Support)": "1.395666838",
@@ -10198,9 +10198,9 @@
       "Trust (Government Corruption)": "0.115945682",
       "Generosity": "0.112196781"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "69",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.674099922",
       "Economy (GDP per Capita)": "0.91839546",
@@ -10282,9 +10282,9 @@
       "Trust (Government Corruption)": "0.193607435",
       "Generosity": "0.08993306"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "76",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.53550005",
       "Economy (GDP per Capita)": "1.21279943",
@@ -10390,10 +10390,10 @@
       "Trust (Government Corruption)": "0.038278613",
       "Generosity": "0.542646527"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "85",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.233300209",
       "Economy (GDP per Capita)": "0.537094414",
       "Family (Social Support)": "0.799727261",
@@ -10405,7 +10405,7 @@
     "Benin": {
       "Happiness Rank": "86",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.21600008",
       "Economy (GDP per Capita)": "0.366244704",
       "Family (Social Support)": "0.352428436",
@@ -10429,7 +10429,7 @@
     "Congo": {
       "Happiness Rank": "88",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.194399834",
       "Economy (GDP per Capita)": "0.633616745",
       "Family (Social Support)": "0.757636011",
@@ -10465,7 +10465,7 @@
     "Ghana": {
       "Happiness Rank": "91",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.147999763",
       "Economy (GDP per Capita)": "0.575862467",
       "Family (Social Support)": "0.96636796",
@@ -10549,7 +10549,7 @@
     "Cameroon": {
       "Happiness Rank": "98",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.084899902",
       "Economy (GDP per Capita)": "0.503958046",
       "Family (Social Support)": "0.89972645",
@@ -10585,7 +10585,7 @@
     "Senegal": {
       "Happiness Rank": "101",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.980800152",
       "Economy (GDP per Capita)": "0.504061818",
       "Family (Social Support)": "0.95459342",
@@ -10597,7 +10597,7 @@
     "Guinea": {
       "Happiness Rank": "102",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.949299812",
       "Economy (GDP per Capita)": "0.390007734",
       "Family (Social Support)": "0.75136596",
@@ -10609,7 +10609,7 @@
     "Niger": {
       "Happiness Rank": "103",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.909599781",
       "Economy (GDP per Capita)": "0.108330332",
       "Family (Social Support)": "0.703800142",
@@ -10669,7 +10669,7 @@
     "Gabon": {
       "Happiness Rank": "108",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.829299927",
       "Economy (GDP per Capita)": "0.988044381",
       "Family (Social Support)": "1.10639751",
@@ -10681,7 +10681,7 @@
     "South Africa": {
       "Happiness Rank": "109",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.814099789",
       "Economy (GDP per Capita)": "0.902140439",
       "Family (Social Support)": "1.259086251",
@@ -10717,7 +10717,7 @@
     "Burkina Faso": {
       "Happiness Rank": "112",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.768700123",
       "Economy (GDP per Capita)": "0.302467644",
       "Family (Social Support)": "0.9293859",
@@ -10729,7 +10729,7 @@
     "Gambia": {
       "Happiness Rank": "113",
       "Country": "Gambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.750599861",
       "Economy (GDP per Capita)": "0.256990552",
       "Family (Social Support)": "0.882678688",
@@ -10741,7 +10741,7 @@
     "Mali": {
       "Happiness Rank": "114",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.729300022",
       "Economy (GDP per Capita)": "0.352462649",
       "Family (Social Support)": "0.97314173",
@@ -10753,7 +10753,7 @@
     "Nigeria": {
       "Happiness Rank": "115",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.724100113",
       "Economy (GDP per Capita)": "0.645901859",
       "Family (Social Support)": "0.986717939",
@@ -10813,7 +10813,7 @@
     "Mozambique": {
       "Happiness Rank": "120",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.623600006",
       "Economy (GDP per Capita)": "0.178741366",
       "Family (Social Support)": "0.955202878",
@@ -10825,7 +10825,7 @@
     "Kenya": {
       "Happiness Rank": "121",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.583000183",
       "Economy (GDP per Capita)": "0.476413399",
       "Family (Social Support)": "0.905077755",
@@ -10837,7 +10837,7 @@
     "Namibia": {
       "Happiness Rank": "122",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.571100235",
       "Economy (GDP per Capita)": "0.84008199",
       "Family (Social Support)": "1.245738149",
@@ -10861,7 +10861,7 @@
     "Liberia": {
       "Happiness Rank": "124",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.557899952",
       "Economy (GDP per Capita)": "0.174103007",
       "Family (Social Support)": "0.920733929",
@@ -10885,7 +10885,7 @@
     "Uganda": {
       "Happiness Rank": "126",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.43200016",
       "Economy (GDP per Capita)": "0.312337428",
       "Family (Social Support)": "1.052327394",
@@ -10897,7 +10897,7 @@
     "Chad": {
       "Happiness Rank": "127",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.422699928",
       "Economy (GDP per Capita)": "0.302287489",
       "Family (Social Support)": "0.739118278",
@@ -10921,7 +10921,7 @@
     "Mauritania": {
       "Happiness Rank": "129",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.374599934",
       "Economy (GDP per Capita)": "0.539684892",
       "Family (Social Support)": "1.113323569",
@@ -10942,10 +10942,10 @@
       "Trust (Government Corruption)": "0.049444564",
       "Generosity": "0.252666146"
     },
-    "Dem. Rep. Congo": {
+    "Democratic Republican Congo": {
       "Happiness Rank": "131",
-      "Country": "Dem. Rep. Congo",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Democratic Republican Congo",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.31099987",
       "Economy (GDP per Capita)": "0.062487468",
       "Family (Social Support)": "0.833055019",
@@ -10957,7 +10957,7 @@
     "Swaziland": {
       "Happiness Rank": "132",
       "Country": "Swaziland",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.308100224",
       "Economy (GDP per Capita)": "0.827539742",
       "Family (Social Support)": "1.064835191",
@@ -10981,7 +10981,7 @@
     "Comoros": {
       "Happiness Rank": "134",
       "Country": "Comoros",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.288599968",
       "Economy (GDP per Capita)": "0.415620774",
       "Family (Social Support)": "0.723232806",
@@ -10993,7 +10993,7 @@
     "Togo": {
       "Happiness Rank": "135",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.187200069",
       "Economy (GDP per Capita)": "0.268116266",
       "Family (Social Support)": "0.547622859",
@@ -11005,7 +11005,7 @@
     "Ethiopia": {
       "Happiness Rank": "136",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.186200142",
       "Economy (GDP per Capita)": "0.315125644",
       "Family (Social Support)": "1.001103282",
@@ -11017,7 +11017,7 @@
     "Madagascar": {
       "Happiness Rank": "137",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.165599823",
       "Economy (GDP per Capita)": "0.244553208",
       "Family (Social Support)": "0.823694348",
@@ -11041,7 +11041,7 @@
     "Sierra Leone": {
       "Happiness Rank": "139",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.926399946",
       "Economy (GDP per Capita)": "0.240560383",
       "Family (Social Support)": "0.747984946",
@@ -11053,7 +11053,7 @@
     "Burundi": {
       "Happiness Rank": "140",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.775300026",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.403575271",
@@ -11065,7 +11065,7 @@
     "Zambia": {
       "Happiness Rank": "141",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.759399891",
       "Economy (GDP per Capita)": "0.536833763",
       "Family (Social Support)": "0.896037281",
@@ -11089,7 +11089,7 @@
     "Lesotho": {
       "Happiness Rank": "143",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.652800083",
       "Economy (GDP per Capita)": "0.45493874",
       "Family (Social Support)": "1.088940024",
@@ -11113,7 +11113,7 @@
     "Malawi": {
       "Happiness Rank": "145",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.538000107",
       "Economy (GDP per Capita)": "0.176534727",
       "Family (Social Support)": "0.53036809",
@@ -11137,7 +11137,7 @@
     "Botswana": {
       "Happiness Rank": "147",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.478899956",
       "Economy (GDP per Capita)": "0.997548997",
       "Family (Social Support)": "1.08569479",
@@ -11149,7 +11149,7 @@
     "Tanzania": {
       "Happiness Rank": "148",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.476200104",
       "Economy (GDP per Capita)": "0.457163125",
       "Family (Social Support)": "0.872674644",
@@ -11158,10 +11158,10 @@
       "Trust (Government Corruption)": "0.203880861",
       "Generosity": "0.27154091"
     },
-    "Central African Rep.": {
+    "Central African Republican": {
       "Happiness Rank": "149",
-      "Country": "Central African Rep.",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Central African Republican",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.475899935",
       "Economy (GDP per Capita)": "0.041072082",
       "Family (Social Support)": "0",
@@ -11173,7 +11173,7 @@
     "Rwanda": {
       "Happiness Rank": "150",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.312299967",
       "Economy (GDP per Capita)": "0.343242675",
       "Family (Social Support)": "0.522876322",
@@ -11185,7 +11185,7 @@
     "Zimbabwe": {
       "Happiness Rank": "151",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.299200058",
       "Economy (GDP per Capita)": "0.425564021",
       "Family (Social Support)": "1.047835231",
@@ -11194,10 +11194,10 @@
       "Trust (Government Corruption)": "0.080928579",
       "Generosity": "0.151349187"
     },
-    "S. Sudan": {
+    "South Sudan": {
       "Happiness Rank": "152",
-      "Country": "S. Sudan",
-      "Region": "Sub-Saharan Africa",
+      "Country": "South Sudan",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "2.816600084",
       "Economy (GDP per Capita)": "0.289082974",
       "Family (Social Support)": "0.553278506",
@@ -11811,7 +11811,7 @@
     "Mauritius": {
       "Happiness Rank": "50",
       "Country": "Mauritius",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "6.049",
       "Economy (GDP per Capita)": "1.178",
       "Family (Social Support)": "0.996",
@@ -11976,9 +11976,9 @@
       "Trust (Government Corruption)": "0.031",
       "Generosity": "0.087"
     },
-    "Bosnia and Herz.": {
+    "Bosnia and Herzegovina": {
       "Happiness Rank": "64",
-      "Country": "Bosnia and Herz.",
+      "Country": "Bosnia and Herzegovina",
       "Region": "Central and Eastern Europe",
       "Happiness Score": "5.813",
       "Economy (GDP per Capita)": "1.032",
@@ -12096,9 +12096,9 @@
       "Trust (Government Corruption)": "0.144",
       "Generosity": "0.101"
     },
-    "N. Cyprus": {
+    "North Cyprus": {
       "Happiness Rank": "74",
-      "Country": "N. Cyprus",
+      "Country": "North Cyprus",
       "Region": "Western Europe",
       "Happiness Score": "5.536",
       "Economy (GDP per Capita)": "1.377",
@@ -12207,7 +12207,7 @@
     "Congo": {
       "Happiness Rank": "83",
       "Country": "Congo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.342",
       "Economy (GDP per Capita)": "0.518",
       "Family (Social Support)": "0.392",
@@ -12228,10 +12228,10 @@
       "Trust (Government Corruption)": "0.117",
       "Generosity": "0.093"
     },
-    "Côte d'Ivoire": {
+    "Ivory Coast": {
       "Happiness Rank": "85",
-      "Country": "Côte d'Ivoire",
-      "Region": "Sub-Saharan Africa",
+      "Country": "Ivory Coast",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.306",
       "Economy (GDP per Capita)": "0.669",
       "Family (Social Support)": "0.409",
@@ -12303,7 +12303,7 @@
     "Cameroon": {
       "Happiness Rank": "91",
       "Country": "Cameroon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.142",
       "Economy (GDP per Capita)": "0.543",
       "Family (Social Support)": "0.556",
@@ -12315,7 +12315,7 @@
     "Senegal": {
       "Happiness Rank": "92",
       "Country": "Senegal",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.132",
       "Economy (GDP per Capita)": "0.518",
       "Family (Social Support)": "0.558",
@@ -12351,7 +12351,7 @@
     "Ghana": {
       "Happiness Rank": "95",
       "Country": "Ghana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.088",
       "Economy (GDP per Capita)": "0.68",
       "Family (Social Support)": "0.595",
@@ -12363,7 +12363,7 @@
     "Niger": {
       "Happiness Rank": "96",
       "Country": "Niger",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.074",
       "Economy (GDP per Capita)": "0.162",
       "Family (Social Support)": "0.402",
@@ -12387,7 +12387,7 @@
     "Gambia": {
       "Happiness Rank": "98",
       "Country": "Gambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.051",
       "Economy (GDP per Capita)": "0.367",
       "Family (Social Support)": "0.511",
@@ -12399,7 +12399,7 @@
     "Benin": {
       "Happiness Rank": "99",
       "Country": "Benin",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "5.045",
       "Economy (GDP per Capita)": "0.507",
       "Family (Social Support)": "0.058",
@@ -12435,7 +12435,7 @@
     "Guinea": {
       "Happiness Rank": "102",
       "Country": "Guinea",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.984",
       "Economy (GDP per Capita)": "0.42",
       "Family (Social Support)": "0.399",
@@ -12447,7 +12447,7 @@
     "South Africa": {
       "Happiness Rank": "103",
       "Country": "South Africa",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.956",
       "Economy (GDP per Capita)": "0.967",
       "Family (Social Support)": "0.895",
@@ -12555,7 +12555,7 @@
     "Gabon": {
       "Happiness Rank": "112",
       "Country": "Gabon",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.852",
       "Economy (GDP per Capita)": "1.037",
       "Family (Social Support)": "0.707",
@@ -12567,7 +12567,7 @@
     "Burkina Faso": {
       "Happiness Rank": "113",
       "Country": "Burkina Faso",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.834",
       "Economy (GDP per Capita)": "0.364",
       "Family (Social Support)": "0.472",
@@ -12591,7 +12591,7 @@
     "Mozambique": {
       "Happiness Rank": "115",
       "Country": "Mozambique",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.794",
       "Economy (GDP per Capita)": "0.183",
       "Family (Social Support)": "0.634",
@@ -12603,7 +12603,7 @@
     "Nigeria": {
       "Happiness Rank": "116",
       "Country": "Nigeria",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.759",
       "Economy (GDP per Capita)": "0.663",
       "Family (Social Support)": "0.625",
@@ -12615,7 +12615,7 @@
     "Mali": {
       "Happiness Rank": "117",
       "Country": "Mali",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.723",
       "Economy (GDP per Capita)": "0.387",
       "Family (Social Support)": "0.59",
@@ -12639,7 +12639,7 @@
     "Uganda": {
       "Happiness Rank": "119",
       "Country": "Uganda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.636",
       "Economy (GDP per Capita)": "0.364",
       "Family (Social Support)": "0.718",
@@ -12651,7 +12651,7 @@
     "Liberia": {
       "Happiness Rank": "120",
       "Country": "Liberia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.625",
       "Economy (GDP per Capita)": "0.228",
       "Family (Social Support)": "0.58",
@@ -12663,7 +12663,7 @@
     "Kenya": {
       "Happiness Rank": "121",
       "Country": "Kenya",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.607",
       "Economy (GDP per Capita)": "0.603",
       "Family (Social Support)": "0.508",
@@ -12699,7 +12699,7 @@
     "Namibia": {
       "Happiness Rank": "124",
       "Country": "Namibia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.574",
       "Economy (GDP per Capita)": "0.882",
       "Family (Social Support)": "0.801",
@@ -12747,7 +12747,7 @@
     "Chad": {
       "Happiness Rank": "128",
       "Country": "Chad",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.355",
       "Economy (GDP per Capita)": "0.255",
       "Family (Social Support)": "0.353",
@@ -12771,7 +12771,7 @@
     "Swaziland": {
       "Happiness Rank": "130",
       "Country": "Swaziland",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.308",
       "Economy (GDP per Capita)": "0.849",
       "Family (Social Support)": "0.693",
@@ -12783,7 +12783,7 @@
     "Comoros": {
       "Happiness Rank": "131",
       "Country": "Comoros",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.289",
       "Economy (GDP per Capita)": "0.488",
       "Family (Social Support)": "0.367",
@@ -12807,7 +12807,7 @@
     "Ethiopia": {
       "Happiness Rank": "133",
       "Country": "Ethiopia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.275",
       "Economy (GDP per Capita)": "0.37",
       "Family (Social Support)": "0.679",
@@ -12819,7 +12819,7 @@
     "Mauritania": {
       "Happiness Rank": "134",
       "Country": "Mauritania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.227",
       "Economy (GDP per Capita)": "0.666",
       "Family (Social Support)": "0.749",
@@ -12831,7 +12831,7 @@
     "Madagascar": {
       "Happiness Rank": "135",
       "Country": "Madagascar",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.208",
       "Economy (GDP per Capita)": "0.266",
       "Family (Social Support)": "0.503",
@@ -12843,7 +12843,7 @@
     "Togo": {
       "Happiness Rank": "136",
       "Country": "Togo",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.107",
       "Economy (GDP per Capita)": "0.254",
       "Family (Social Support)": "0.239",
@@ -12855,7 +12855,7 @@
     "Zambia": {
       "Happiness Rank": "137",
       "Country": "Zambia",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "4.073",
       "Economy (GDP per Capita)": "0.528",
       "Family (Social Support)": "0.552",
@@ -12867,7 +12867,7 @@
     "Sierra Leone": {
       "Happiness Rank": "138",
       "Country": "Sierra Leone",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.849",
       "Economy (GDP per Capita)": "0.279",
       "Family (Social Support)": "0.377",
@@ -12891,7 +12891,7 @@
     "Burundi": {
       "Happiness Rank": "140",
       "Country": "Burundi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.775",
       "Economy (GDP per Capita)": "0",
       "Family (Social Support)": "0.062",
@@ -12915,7 +12915,7 @@
     "Tanzania": {
       "Happiness Rank": "142",
       "Country": "Tanzania",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.623",
       "Economy (GDP per Capita)": "0.433",
       "Family (Social Support)": "0.54",
@@ -12939,7 +12939,7 @@
     "Malawi": {
       "Happiness Rank": "144",
       "Country": "Malawi",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.6",
       "Economy (GDP per Capita)": "0.113",
       "Family (Social Support)": "0.168",
@@ -12951,7 +12951,7 @@
     "Lesotho": {
       "Happiness Rank": "145",
       "Country": "Lesotho",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.512",
       "Economy (GDP per Capita)": "0.451",
       "Family (Social Support)": "0.731",
@@ -12963,7 +12963,7 @@
     "Botswana": {
       "Happiness Rank": "146",
       "Country": "Botswana",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.467",
       "Economy (GDP per Capita)": "1.099",
       "Family (Social Support)": "0.724",
@@ -12975,7 +12975,7 @@
     "Rwanda": {
       "Happiness Rank": "147",
       "Country": "Rwanda",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.415",
       "Economy (GDP per Capita)": "0.364",
       "Family (Social Support)": "0.202",
@@ -12987,7 +12987,7 @@
     "Zimbabwe": {
       "Happiness Rank": "148",
       "Country": "Zimbabwe",
-      "Region": "Sub-Saharan Africa",
+      "Region": "Sub Saharan Africa",
       "Happiness Score": "3.145",
       "Economy (GDP per Capita)": "0.457",
       "Family (Social Support)": "0.649",
