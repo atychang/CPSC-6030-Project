@@ -49,6 +49,7 @@ const graph = svg
 
 svg.append("g").attr("class", "stackedbar");
 svg.append("g").attr("class", "line");
+svg.append("g").attr("class", "dot");
 
 const xScale = d3.scaleBand().domain(years).range([0, width]).padding(0.5);
 const xAxis = d3.axisBottom(xScale).ticks(8);
@@ -96,7 +97,7 @@ legend
 
 const line = d3
   .line()
-  .x((d) => xScale(+d.year) + margin.left + 25)
+  .x((d) => xScale(+d.year) + margin.left + 20)
   .y((d) => yScale(d["Happiness Score"]) + margin.top);
 
 let selectedCountry = null;
@@ -139,6 +140,17 @@ export function initStackedBarChart(country) {
     .attr("stroke-linecap", "round")
     .attr("stroke-width", 1.5)
     .attr("d", line);
+
+  svg
+    .select(".dot")
+    .selectAll("circle")
+    .data(dataset)
+    .enter()
+    .append("circle")
+    .attr("fill", "steelblue")
+    .attr("r", 5)
+    .attr("cx", (d) => xScale(+d.year) + margin.left + 20)
+    .attr("cy", (d) => yScale(d["Happiness Score"]) + margin.top);
 }
 
 function getData(country) {
