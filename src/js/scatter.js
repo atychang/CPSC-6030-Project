@@ -12,7 +12,7 @@ for (const [_, info] of Object.entries(worldHappiness["2015"])) {
   defaultData.push(info);
 }
 
-import { initStackedBarChart } from "./stackedBarChart.js";
+import { initStackedBarChart, resetStackedBar } from "./stackedBarChart.js";
 
 const body = document.getElementById("scatterplot");
 const graphWidth = body.clientWidth - 150,
@@ -322,6 +322,7 @@ export function highlightCountryOnScatter(country) {
 export function highlightRegionOnScatter(region) {
   unhighlightScatter();
   if (region === "Select all region") {
+    resetStackedBar();
     selectedRegion = null;
     return;
   }
