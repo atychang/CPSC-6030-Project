@@ -26,34 +26,38 @@ const years = [2015, 2016, 2017, 2018, 2019, 2020, 2021];
 const colorScale = d3.scaleOrdinal().domain(fields).range(colors);
 
 const body = document.getElementById("stackedBarChart");
-const graphWidth = body.clientWidth - 150,
-  graphHeight = body.clientHeight - 150;
-const margin = 100;
+const containerWidth = body.clientWidth,
+  containerHeight = body.clientHeight,
+  margin = {
+    top: 75,
+    right: 210,
+    bottom: 75,
+    left: 75,
+  },
+  width = containerWidth - margin.left - margin.right,
+  height = containerHeight - margin.top - margin.bottom;
 
 const svg = d3.select("#stackedBarChart").append("svg");
 svg
   .attr("preserveAspectRatio", "xMidYMid meet")
-  .attr(
-    "viewBox",
-    `0 0 ${graphWidth + margin * 2} ${graphHeight + margin * 2}`
-  );
+  .attr("viewBox", `0 0 ${containerWidth} ${containerHeight}`);
 
 const graph = svg
   .append("g")
   .attr("position", "relative")
-  .attr("transform", `translate(${margin}, ${margin})`);
+  .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 svg.append("g").attr("class", "stackedbar");
 svg.append("g").attr("class", "line");
 
-const xScale = d3.scaleBand().domain(years).range([0, graphWidth]).padding(0.5);
+const xScale = d3.scaleBand().domain(years).range([0, width]).padding(0.5);
 const xAxis = d3.axisBottom(xScale).ticks(8);
 const xAxisGroup = graph
   .append("g")
-  .attr("transform", `translate(0, ${graphHeight})`)
+  .attr("transform", `translate(0, ${height})`)
   .call(xAxis);
 
-const yScale = d3.scaleLinear().domain([0, 8]).range([graphHeight, 0]);
+const yScale = d3.scaleLinear().domain([0, 8]).range([height, 0]);
 const yAxis = d3.axisLeft(yScale).ticks(20);
 const yAxisGroup = graph.append("g").call(yAxis);
 
@@ -65,7 +69,7 @@ const legend = graph
   .append("g")
   .attr("class", "legend")
   .attr("position", "absolute")
-  .attr("transform", `translate(${graphWidth - margin}, ${0})`);
+  .attr("transform", `translate(${width}, ${0})`);
 
 legend
   .append("rect")
@@ -119,8 +123,8 @@ export function initStackedBarChart(country) {
     .data((d) => d)
     .enter()
     .append("rect")
-    .attr("x", (d) => xScale(+d.data.year) + margin)
-    .attr("y", (d) => yScale(d[1]) + margin)
+    .attr("x", (d) => xScale(+d.data.year) + margin.left)
+    .attr("y", (d) => yScale(d[1]) + margin.top)
     .attr("height", (d) => yScale(d[0]) - yScale(d[1]))
     .attr("width", (d) => xScale.bandwidth());
 
